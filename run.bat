@@ -1,7 +1,7 @@
 @echo off
 REM Add custom JVM arguments (such as RAM allocation) to the user_jvm_args.txt
 
-java -jar forge-1.21-51.0.25-shim.jar --onlyCheckJava
+java -Xms5G -Xmx10G -jar forge-1.21-51.0.25-shim.jar --onlyCheckJava
 if %ERRORLEVEL% NEQ 0 (
     echo.
     echo If you're struggling to fix the error above, ask for help on the forums or Discord mentioned in the readme.
