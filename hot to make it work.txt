@@ -1,0 +1,6 @@
+run .bat file
+right click and open in terminal
+
+
+.\ngrok.exe tcp 25565 
+paste this code and run this
