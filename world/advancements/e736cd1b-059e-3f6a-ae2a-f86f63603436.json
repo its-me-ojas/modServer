@@ -2023,5 +2023,65 @@
     },
     "done": true
   },
+  "warp_portals:warp_portals": {
+    "criteria": {
+      "trigger": "2024-07-20 10:26:04 +0530"
+    },
+    "done": true
+  },
+  "global:notnull": {
+    "criteria": {
+      "trigger": "2024-07-20 10:26:04 +0530"
+    },
+    "done": true
+  },
+  "global:root": {
+    "criteria": {
+      "trigger": "2024-07-20 10:26:04 +0530"
+    },
+    "done": true
+  },
+  "warp_portals:forge_wand": {
+    "criteria": {
+      "warp_portals_forge_wand": "2024-07-20 10:27:30 +0530"
+    },
+    "done": true
+  },
+  "warp_portals:create_portal": {
+    "criteria": {
+      "warp_portals_forge_wand": "2024-07-20 10:27:47 +0530"
+    },
+    "done": true
+  },
+  "warp_portals:use_portal": {
+    "criteria": {
+      "warp_portals_forge_wand": "2024-07-20 10:27:51 +0530"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_shrine": {
+    "criteria": {
+      "shrine_combat": "2024-07-20 11:03:48 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2024-07-20 11:04:25 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2024-07-20 11:04:25 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2024-07-20 11:04:25 +0530"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }
