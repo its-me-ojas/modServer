@@ -13,6 +13,8 @@
       "minecraft:taiga": "2024-07-20 06:53:30 +0530",
       "minecraft:deep_ocean": "2024-07-19 05:45:35 +0530",
       "minecraft:lush_caves": "2024-07-20 14:33:34 +0530",
+      "minecraft:eroded_badlands": "2024-07-23 09:55:01 +0530",
+      "minecraft:desert": "2024-07-23 08:49:39 +0530",
       "minecraft:ocean": "2024-07-19 05:41:53 +0530",
       "minecraft:jungle": "2024-07-19 05:30:00 +0530",
       "minecraft:cherry_grove": "2024-07-19 06:00:59 +0530",
@@ -20,6 +22,9 @@
       "minecraft:birch_forest": "2024-07-19 05:48:34 +0530",
       "minecraft:old_growth_spruce_taiga": "2024-07-20 14:38:53 +0530",
       "minecraft:bamboo_jungle": "2024-07-20 23:13:43 +0530",
+      "minecraft:wooded_badlands": "2024-07-23 08:58:59 +0530",
+      "minecraft:warm_ocean": "2024-07-23 08:48:51 +0530",
+      "minecraft:badlands": "2024-07-23 09:05:06 +0530",
       "minecraft:flower_forest": "2024-07-19 05:58:15 +0530",
       "minecraft:savanna_plateau": "2024-07-19 04:52:27 +0530",
       "minecraft:beach": "2024-07-19 05:48:12 +0530",
@@ -32,6 +37,8 @@
       "minecraft:dripstone_caves": "2024-07-20 03:08:12 +0530",
       "minecraft:old_growth_birch_forest": "2024-07-19 05:47:42 +0530",
       "minecraft:deep_dark": "2024-07-19 05:06:43 +0530",
+      "minecraft:grove": "2024-07-23 09:59:15 +0530",
+      "minecraft:meadow": "2024-07-23 12:55:12 +0530",
       "minecraft:savanna": "2024-07-19 04:46:58 +0530",
       "minecraft:plains": "2024-07-19 05:25:26 +0530"
     },
@@ -166,7 +173,9 @@
   "nova_structures:adventure/find_all_illager_structures": {
     "criteria": {
       "pillager_outpost": "2024-07-19 05:51:15 +0530",
-      "illager_camp": "2024-07-19 04:48:52 +0530"
+      "illager_manor": "2024-07-23 09:59:24 +0530",
+      "illager_camp": "2024-07-19 04:48:52 +0530",
+      "badland_miner_outpost": "2024-07-23 08:59:33 +0530"
     },
     "done": false
   },
@@ -229,24 +238,28 @@
       "minecraft:pillager": "2024-07-19 04:50:00 +0530",
       "minecraft:blaze": "2024-07-19 20:08:01 +0530",
       "minecraft:skeleton": "2024-07-19 04:58:30 +0530",
+      "minecraft:ravager": "2024-07-23 09:47:10 +0530",
+      "minecraft:ghast": "2024-07-19 20:10:45 +0530",
+      "minecraft:hoglin": "2024-07-19 20:05:38 +0530",
+      "minecraft:vindicator": "2024-07-19 05:51:27 +0530",
+      "minecraft:magma_cube": "2024-07-19 20:09:55 +0530",
+      "minecraft:spider": "2024-07-19 05:25:49 +0530",
+      "minecraft:piglin_brute": "2024-07-20 01:30:46 +0530",
+      "minecraft:creeper": "2024-07-19 04:53:05 +0530",
+      "minecraft:evoker": "2024-07-23 10:27:35 +0530",
       "minecraft:phantom": "2024-07-20 07:06:34 +0530",
       "minecraft:zombified_piglin": "2024-07-19 20:07:18 +0530",
+      "minecraft:witch": "2024-07-23 10:42:05 +0530",
       "minecraft:wither_skeleton": "2024-07-19 20:08:25 +0530",
-      "minecraft:ghast": "2024-07-19 20:10:45 +0530",
       "minecraft:ender_dragon": "2024-07-22 03:30:12 +0530",
-      "minecraft:hoglin": "2024-07-19 20:05:38 +0530",
       "minecraft:shulker": "2024-07-22 04:01:19 +0530",
       "minecraft:cave_spider": "2024-07-20 14:43:51 +0530",
       "minecraft:piglin": "2024-07-19 20:05:42 +0530",
-      "minecraft:vindicator": "2024-07-19 05:51:27 +0530",
       "minecraft:silverfish": "2024-07-19 04:59:55 +0530",
       "minecraft:enderman": "2024-07-20 14:50:41 +0530",
-      "minecraft:magma_cube": "2024-07-19 20:09:55 +0530",
       "minecraft:endermite": "2024-07-19 05:50:02 +0530",
-      "minecraft:spider": "2024-07-19 05:25:49 +0530",
-      "minecraft:piglin_brute": "2024-07-20 01:30:46 +0530",
+      "minecraft:vex": "2024-07-23 10:27:37 +0530",
       "minecraft:zombie": "2024-07-19 04:57:41 +0530",
-      "minecraft:creeper": "2024-07-19 04:53:05 +0530",
       "minecraft:drowned": "2024-07-22 23:25:41 +0530",
       "minecraft:zombie_villager": "2024-07-20 23:51:36 +0530"
     },
@@ -1299,6 +1312,7 @@
       "nether_port": "2024-07-23 04:01:39 +0530",
       "fortress": "2024-07-19 20:05:56 +0530",
       "skeleton_camp_waste": "2024-07-20 02:03:51 +0530",
+      "nether_skeleton_tower_crimson": "2024-07-23 07:39:11 +0530",
       "skeleton_camp_soul": "2024-07-23 03:50:32 +0530"
     },
     "done": false
@@ -3762,6 +3776,318 @@
   "nova_structures:nether/find_port": {
     "criteria": {
       "nova_structures:nether_port": "2024-07-23 04:01:39 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2024-07-23 06:19:38 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2024-07-23 06:19:38 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2024-07-23 06:19:38 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_the_recipe": "2024-07-23 06:26:59 +0530"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_skeleton_tower": {
+    "criteria": {
+      "nova_structures:nether_skeleton_tower_crimson": "2024-07-23 07:39:11 +0530"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2024-07-23 08:25:17 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2024-07-23 08:29:01 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-07-23 08:45:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-07-23 08:45:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2024-07-23 08:45:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2024-07-23 08:45:54 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2024-07-23 08:45:54 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2024-07-23 08:49:50 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2024-07-23 08:49:50 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2024-07-23 08:49:50 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2024-07-23 08:53:00 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_brown_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-07-23 08:56:58 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_brown_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-07-23 08:56:58 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_candle": {
+    "criteria": {
+      "has_brown_dye": "2024-07-23 08:56:58 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_brown_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-07-23 08:56:58 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2024-07-23 09:11:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2024-07-23 09:11:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2024-07-23 09:11:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2024-07-23 09:11:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-07-23 09:11:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-07-23 09:11:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2024-07-23 09:11:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2024-07-23 09:11:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2024-07-23 09:11:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-07-23 09:11:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2024-07-23 09:11:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2024-07-23 09:48:35 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2024-07-23 09:48:35 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2024-07-23 09:48:35 +0530"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_illager_manor": {
+    "criteria": {
+      "nova_structures:illager_manor": "2024-07-23 09:59:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2024-07-23 10:16:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-07-23 10:16:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-07-23 10:16:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2024-07-23 10:16:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2024-07-23 10:20:00 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_candle": {
+    "criteria": {
+      "has_yellow_dye": "2024-07-23 12:23:10 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-07-23 12:23:10 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-07-23 12:23:10 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-07-23 12:23:10 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2024-07-23 12:31:18 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2024-07-23 13:06:44 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2024-07-23 13:02:29 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_gray_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-07-23 13:02:33 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_gray_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-07-23 13:02:33 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_candle": {
+    "criteria": {
+      "has_light_gray_dye": "2024-07-23 13:02:33 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2024-07-23 13:02:29 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_gray_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-07-23 13:02:33 +0530"
     },
     "done": true
   },
