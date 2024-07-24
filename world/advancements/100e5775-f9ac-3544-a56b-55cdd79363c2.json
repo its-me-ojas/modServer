@@ -4808,5 +4808,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2024-07-25 02:45:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2024-07-25 02:45:41 +0530"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }
