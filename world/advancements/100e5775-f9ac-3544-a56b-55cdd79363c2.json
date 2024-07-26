@@ -178,7 +178,8 @@
       "pillager_outpost": "2024-07-19 05:51:27 +0530",
       "illager_manor": "2024-07-23 10:05:28 +0530",
       "illager_camp": "2024-07-19 04:50:50 +0530",
-      "badland_miner_outpost": "2024-07-23 09:32:19 +0530"
+      "badland_miner_outpost": "2024-07-23 09:32:19 +0530",
+      "illager_hideout": "2024-07-26 03:57:07 +0530"
     },
     "done": false
   },
@@ -357,6 +358,7 @@
       "chorus_fruit": "2024-07-22 06:04:35 +0530",
       "porkchop": "2024-07-20 02:07:50 +0530",
       "golden_carrot": "2024-07-20 01:44:03 +0530",
+      "beetroot": "2024-07-26 04:22:49 +0530",
       "beetroot_soup": "2024-07-22 06:50:31 +0530",
       "spider_eye": "2024-07-19 06:39:13 +0530",
       "cooked_chicken": "2024-07-23 10:31:02 +0530",
@@ -728,6 +730,7 @@
       "minecraft:endermite": "2024-07-19 05:49:54 +0530",
       "minecraft:vex": "2024-07-23 11:02:50 +0530",
       "minecraft:zombie": "2024-07-19 05:57:09 +0530",
+      "minecraft:drowned": "2024-07-26 05:29:50 +0530",
       "minecraft:zombie_villager": "2024-07-23 08:31:53 +0530"
     },
     "done": false
@@ -4817,6 +4820,150 @@
   "minecraft:recipes/misc/lapis_lazuli_from_smelting_lapis_ore": {
     "criteria": {
       "has_lapis_ore": "2024-07-25 02:45:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-07-26 01:02:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-07-26 01:02:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-07-26 01:02:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-07-26 01:02:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-07-26 01:02:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-07-26 01:02:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2024-07-26 01:05:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2024-07-26 01:05:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2024-07-26 01:05:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2024-07-26 01:30:02 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2024-07-26 01:30:02 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2024-07-26 03:25:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2024-07-26 03:50:47 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2024-07-26 03:54:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2024-07-26 03:54:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2024-07-26 03:54:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2024-07-26 03:54:55 +0530"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/loot_illager_hideout": {
+    "criteria": {
+      "loot_illager_hideout_heart_loot": "2024-07-26 04:25:47 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2024-07-26 05:56:28 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2024-07-26 06:37:27 +0530"
+    },
+    "done": true
+  },
+  "wooltostring:recipes/misc/wool": {
+    "criteria": {
+      "has_ingredient": "2024-07-26 07:15:25 +0530"
+    },
+    "done": true
+  },
+  "wooltostring:recipes/misc/wool_carpets": {
+    "criteria": {
+      "has_ingredient": "2024-07-26 07:15:25 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2024-07-26 07:56:30 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-07-26 07:56:30 +0530"
     },
     "done": true
   },
