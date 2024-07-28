@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="1.21-51.0.25">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libraries/net/minecraftforge/forge/1.21-51.0.25/forge-1.21-51.0.25-client.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/net/minecraftforge/forge/1.21-51.0.25/forge-1.21-51.0.25-universal.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/net/minecraftforge/forge/1.21-51.0.25/forge-1.21-51.0.25-server.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/net/minecraftforge/forge/1.21-51.0.25/forge-1.21-51.0.25-shim.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

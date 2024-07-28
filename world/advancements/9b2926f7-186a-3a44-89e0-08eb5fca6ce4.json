@@ -1,0 +1,33 @@
+{
+  "warp_portals:warp_portals": {
+    "criteria": {
+      "trigger": "2024-07-27 23:54:09 +0530"
+    },
+    "done": true
+  },
+  "global:notnull": {
+    "criteria": {
+      "trigger": "2024-07-27 23:54:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-07-27 23:54:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2024-07-27 23:54:09 +0530"
+    },
+    "done": false
+  },
+  "global:root": {
+    "criteria": {
+      "trigger": "2024-07-27 23:54:09 +0530"
+    },
+    "done": true
+  },
+  "DataVersion": 3953
+}

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="modlauncher-10.2.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libraries/net/minecraftforge/modlauncher/10.2.1/modlauncher-10.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

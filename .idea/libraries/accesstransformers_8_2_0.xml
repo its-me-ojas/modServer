@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="accesstransformers-8.2.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libraries/net/minecraftforge/accesstransformers/8.2.0/accesstransformers-8.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

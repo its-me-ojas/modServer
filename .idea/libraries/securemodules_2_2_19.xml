@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="securemodules-2.2.19">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libraries/net/minecraftforge/securemodules/2.2.19/securemodules-2.2.19.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

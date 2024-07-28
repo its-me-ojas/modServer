@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="installertools-1.4.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libraries/net/minecraftforge/installertools/1.4.3/installertools-1.4.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

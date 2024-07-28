@@ -1,0 +1,28 @@
+<component name="libraryTable">
+  <library name="mods">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mods/DnT-desert-temple-overhaul-v1.1 [Forge].jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/DnT-nether-fortress-overhaul-v2.1 [Forge].jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/DnT-pillager-outpost-overhaul-v2.2 [Forge].jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/DnT-jungle-temple-overhaul-v1.1 [Forge].jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/DnT-ancient-city-overhaul-v2 [Forge].jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/wooltostring-v1.0.0-forge-1.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/dungeons-and-taverns-v4.3 [Forge].jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/collective-1.21.0-7.74.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/warp-portals-1.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/smallships-forge-1.21-2.0.0-b1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/DnT-swamp-hut-overhaul-v2 [Forge].jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/weaponmaster_ydm-forge-1.21-4.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/DnT-end-castle-standalone-v1 [Forge].jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/DnT-ocean-monument-overhaul-v1.1 [Forge].jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/XaerosWorldMap_1.38.8_Forge_1.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/Xaeros_Minimap_24.2.1_Forge_1.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/DnT-stronghold-rework-v2.1 [Forge].jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/inventoryhud.forge.1.21-3.4.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/justmobheads-1.21.0-8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mods/DnT-woodland-mansion-overhaul-v1.1 [Forge].jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

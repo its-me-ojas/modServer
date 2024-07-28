@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fmlcore-1.21-51.0.25">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libraries/net/minecraftforge/fmlcore/1.21-51.0.25/fmlcore-1.21-51.0.25.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

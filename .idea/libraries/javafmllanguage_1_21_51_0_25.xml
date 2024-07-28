@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javafmllanguage-1.21-51.0.25">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libraries/net/minecraftforge/javafmllanguage/1.21-51.0.25/javafmllanguage-1.21-51.0.25.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
