@@ -1,26 +1,41 @@
-[29Jul2024 14:30:49.016] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, --nogui]
-[29Jul2024 14:30:49.020] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Arch Linux OpenJDK 64-Bit Server VM 21.0.4+7
-[29Jul2024 14:30:49.022] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.4 by Arch Linux; OS Linux arch amd64 version 6.10.1-zen1-1-zen
-[29Jul2024 14:30:49.347] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
-[29Jul2024 14:30:49.590] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///home/crestfallen/Minecraft/modServer/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
-[29Jul2024 14:30:50.085] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[29Jul2024 14:30:52.142] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[29Jul2024 14:30:52.142] [main/ERROR] [mixin/]: Mixin config weaponmaster_ydm.mixins.json does not specify "minVersion" or "requiredFeatures" property
-[29Jul2024 14:30:52.187] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [--nogui]
-[29Jul2024 14:30:53.490] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///home/crestfallen/Minecraft/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/home/crestfallen/Minecraft/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///home/crestfallen/Minecraft/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/home/crestfallen/Minecraft/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
-[29Jul2024 14:30:53.717] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///home/crestfallen/Minecraft/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/home/crestfallen/Minecraft/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///home/crestfallen/Minecraft/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/home/crestfallen/Minecraft/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
-[29Jul2024 14:31:05.428] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.74.
-[29Jul2024 14:31:05.492] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.25, for MC 1.21 with MCP 20240613.102039
-[29Jul2024 14:31:05.493] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.25 Initialized
-[29Jul2024 14:31:05.521] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[29Jul2024 14:31:06.465] [modloading-worker-0/INFO] [com.rajhab.morevanillashields_mod.morevanillashields/]: morevanillashields: This mod now runs with a config file. Feel free to use it!
-[29Jul2024 14:31:06.535] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[29Jul2024 14:31:06.536] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
-[29Jul2024 14:31:06.543] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[29Jul2024 14:31:06.543] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
-[29Jul2024 14:31:06.825] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
-[29Jul2024 14:31:09.558] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[29Jul2024 14:31:14.691] [Yggdrasil Key Fetcher/ERROR] [com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo/]: Failed to request yggdrasil public key
+[29Jul2024 15:39:31.694] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, --nogui]
+[29Jul2024 15:39:31.696] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Arch Linux OpenJDK 64-Bit Server VM 21.0.4+7
+[29Jul2024 15:39:31.698] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.4 by Arch Linux; OS Linux arch amd64 version 6.10.1-zen1-1-zen
+[29Jul2024 15:39:31.913] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[29Jul2024 15:39:32.061] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///home/crestfallen/Minecraft/modServer/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[29Jul2024 15:39:32.330] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[29Jul2024 15:39:33.431] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[29Jul2024 15:39:33.431] [main/ERROR] [mixin/]: Mixin config weaponmaster_ydm.mixins.json does not specify "minVersion" or "requiredFeatures" property
+[29Jul2024 15:39:33.478] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [--nogui]
+[29Jul2024 15:39:34.118] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///home/crestfallen/Minecraft/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/home/crestfallen/Minecraft/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///home/crestfallen/Minecraft/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/home/crestfallen/Minecraft/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
+[29Jul2024 15:39:34.248] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///home/crestfallen/Minecraft/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/home/crestfallen/Minecraft/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///home/crestfallen/Minecraft/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/home/crestfallen/Minecraft/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
+[29Jul2024 15:39:40.128] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.74.
+[29Jul2024 15:39:40.160] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.25, for MC 1.21 with MCP 20240613.102039
+[29Jul2024 15:39:40.160] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.25 Initialized
+[29Jul2024 15:39:40.191] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[29Jul2024 15:39:40.587] [modloading-worker-0/INFO] [com.rajhab.morevanillashields_mod.morevanillashields/]: morevanillashields: This mod now runs with a config file. Feel free to use it!
+[29Jul2024 15:39:40.626] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[29Jul2024 15:39:40.626] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[29Jul2024 15:39:40.632] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[29Jul2024 15:39:40.632] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[29Jul2024 15:39:40.835] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[29Jul2024 15:39:41.743] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[29Jul2024 15:39:43.913] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1314 recipes
+[29Jul2024 15:39:44.137] [main/ERROR] [net.minecraft.advancements.AdvancementTree/]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[29Jul2024 15:39:44.137] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1440 advancements
+[29Jul2024 15:39:44.156] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
+[29Jul2024 15:39:44.681] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21
+[29Jul2024 15:39:44.681] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[29Jul2024 15:39:44.681] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[29Jul2024 15:39:44.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[29Jul2024 15:39:44.806] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[29Jul2024 15:39:44.875] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[29Jul2024 15:39:44.935] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[29Jul2024 15:39:44.936] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[29Jul2024 15:39:44.936] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[29Jul2024 15:39:44.936] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[29Jul2024 15:39:44.996] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[29Jul2024 15:39:46.997] [Yggdrasil Key Fetcher/ERROR] [com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo/]: Failed to request yggdrasil public key
 com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to Connect timed out
 	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:108) ~[authlib-6.0.54.jar!/:?]
 	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-6.0.54.jar!/:?]
@@ -53,22 +68,21 @@ Caused by: java.net.SocketTimeoutException: Connect timed out
 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
 	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:84) ~[authlib-6.0.54.jar!/:?]
 	... 9 more
-[29Jul2024 14:31:15.135] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1314 recipes
-[29Jul2024 14:31:15.641] [main/ERROR] [net.minecraft.advancements.AdvancementTree/]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
-[29Jul2024 14:31:15.641] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1440 advancements
-[29Jul2024 14:31:15.666] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
-[29Jul2024 14:31:16.866] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21
-[29Jul2024 14:31:16.867] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[29Jul2024 14:31:16.867] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[29Jul2024 14:31:16.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[29Jul2024 14:31:17.100] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[29Jul2024 14:31:17.256] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[29Jul2024 14:31:17.369] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[29Jul2024 14:31:17.370] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[29Jul2024 14:31:17.370] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[29Jul2024 14:31:17.371] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[29Jul2024 14:31:17.480] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[29Jul2024 14:31:21.861] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[29Jul2024 15:39:48.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[29Jul2024 15:39:51.665] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Jul2024 15:39:51.666] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Jul2024 15:39:51.666] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Jul2024 15:39:51.666] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Jul2024 15:39:51.667] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Jul2024 15:39:51.667] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Jul2024 15:39:51.668] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Jul2024 15:39:51.668] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Jul2024 15:39:51.791] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3710 ms
+[29Jul2024 15:39:51.792] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (6.842s)! For help, type "help"
+[29Jul2024 15:39:51.803] [LanServerPinger #1/WARN] [net.minecraft.client.server.LanServerPinger/]: LanServerPinger: Operation not permitted
+[29Jul2024 15:39:51.807] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[29Jul2024 15:39:51.807] [Server thread/INFO] [com.rajhab.morevanillashields_mod.morevanillashields/]: morevanillashields: This mod is now running on a server. Please report any error or bugs.
+[29Jul2024 15:39:55.851] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.net.http.HttpConnectTimeoutException: HTTP connect timed out
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
@@ -84,27 +98,8 @@ Caused by: java.net.ConnectException: HTTP connect timed out
 	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[29Jul2024 14:31:21.865] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
-[29Jul2024 14:31:24.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[29Jul2024 14:31:30.006] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Jul2024 14:31:30.008] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Jul2024 14:31:30.009] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Jul2024 14:31:30.010] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Jul2024 14:31:30.011] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Jul2024 14:31:30.012] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Jul2024 14:31:30.012] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Jul2024 14:31:30.013] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Jul2024 14:31:30.014] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Jul2024 14:31:30.015] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Jul2024 14:31:30.015] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Jul2024 14:31:30.016] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Jul2024 14:31:30.019] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Jul2024 14:31:30.231] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6213 ms
-[29Jul2024 14:31:30.232] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.837s)! For help, type "help"
-[29Jul2024 14:31:30.252] [LanServerPinger #1/WARN] [net.minecraft.client.server.LanServerPinger/]: LanServerPinger: Operation not permitted
-[29Jul2024 14:31:30.259] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[29Jul2024 14:31:30.259] [Server thread/INFO] [com.rajhab.morevanillashields_mod.morevanillashields/]: morevanillashields: This mod is now running on a server. Please report any error or bugs.
-[29Jul2024 14:31:36.870] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[29Jul2024 15:39:55.853] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[29Jul2024 15:40:10.857] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.net.http.HttpConnectTimeoutException: HTTP connect timed out
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
@@ -120,10 +115,8 @@ Caused by: java.net.ConnectException: HTTP connect timed out
 	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[29Jul2024 14:31:36.876] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsnetherfortressoverhaul] Starting version check at https://api.modrinth.com/updates/8Dbnvm77/forge_updates.json
-[29Jul2024 14:31:46.564] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: whitehairguy[/127.0.0.1:51146] logged in with entity id 7 at (4237.71071196088, 72.5625, -8396.191264694258)
-[29Jul2024 14:31:46.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy joined the game
-[29Jul2024 14:31:51.882] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[29Jul2024 15:40:10.860] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsnetherfortressoverhaul] Starting version check at https://api.modrinth.com/updates/8Dbnvm77/forge_updates.json
+[29Jul2024 15:40:25.864] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.net.http.HttpConnectTimeoutException: HTTP connect timed out
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
@@ -139,8 +132,10 @@ Caused by: java.net.ConnectException: HTTP connect timed out
 	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[29Jul2024 14:31:51.884] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernspillageroutpostoverhaul] Starting version check at https://api.modrinth.com/updates/QIt10I7z/forge_updates.json
-[29Jul2024 14:32:06.888] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[29Jul2024 15:40:25.869] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernspillageroutpostoverhaul] Starting version check at https://api.modrinth.com/updates/QIt10I7z/forge_updates.json
+[29Jul2024 15:40:32.682] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: whitehairguy[/127.0.0.1:45568] logged in with entity id 7 at (2080.5779876275897, 73.0, -17624.030123203775)
+[29Jul2024 15:40:32.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy joined the game
+[29Jul2024 15:40:40.888] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.net.http.HttpConnectTimeoutException: HTTP connect timed out
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
@@ -156,8 +151,9 @@ Caused by: java.net.ConnectException: HTTP connect timed out
 	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[29Jul2024 14:32:06.892] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsdeserttempleoverhaul] Starting version check at https://api.modrinth.com/updates/7JTDDmRT/forge_updates.json
-[29Jul2024 14:32:21.897] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[29Jul2024 15:40:40.890] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsdeserttempleoverhaul] Starting version check at https://api.modrinth.com/updates/7JTDDmRT/forge_updates.json
+[29Jul2024 15:40:41.485] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9123ms or 182 ticks behind
+[29Jul2024 15:40:55.894] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.net.http.HttpConnectTimeoutException: HTTP connect timed out
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
@@ -173,20 +169,8 @@ Caused by: java.net.ConnectException: HTTP connect timed out
 	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[29Jul2024 14:32:21.900] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernswoodlandmansionoverhaul] Starting version check at https://api.modrinth.com/updates/3GfxWFCy/forge_updates.json
-[29Jul2024 14:32:27.010] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernswoodlandmansionoverhaul] Found status: AHEAD Current: 1-v1.1 Target: null
-[29Jul2024 14:32:27.011] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_warp_portals] Starting version check at https://api.modrinth.com/updates/Ub1JbeSt/forge_updates.json
-[29Jul2024 14:32:29.055] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_warp_portals] Found status: OUTDATED Current: 1.4.0 Target: 1.4.0+mod
-[29Jul2024 14:32:29.056] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsjungletempleoverhaul] Starting version check at https://api.modrinth.com/updates/oHjYCS0f/forge_updates.json
-[29Jul2024 14:32:29.424] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsjungletempleoverhaul] Found status: AHEAD Current: 1-v1.1 Target: null
-[29Jul2024 14:32:29.424] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsstrongholdrework] Starting version check at https://api.modrinth.com/updates/rYocd2LE/forge_updates.json
-[29Jul2024 14:32:30.169] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsstrongholdrework] Found status: AHEAD Current: 1-v2.1 Target: null
-[29Jul2024 14:32:30.169] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsendcastlestandalone] Starting version check at https://api.modrinth.com/updates/WIs8E6hv/forge_updates.json
-[29Jul2024 14:32:30.529] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsendcastlestandalone] Found status: AHEAD Current: 1-v1 Target: null
-[29Jul2024 14:32:30.530] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsoceanmonumentoverhaul] Starting version check at https://api.modrinth.com/updates/z6GJ3ycD/forge_updates.json
-[29Jul2024 14:32:31.366] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsoceanmonumentoverhaul] Found status: AHEAD Current: 1-v1.1 Target: null
-[29Jul2024 14:32:31.366] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morevanillashields] Starting version check at https://raw.githubusercontent.com/Rajhab/MoreVanillaShields-UpdateChecker/main/update.json
-[29Jul2024 14:32:46.370] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[29Jul2024 15:40:55.896] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernswoodlandmansionoverhaul] Starting version check at https://api.modrinth.com/updates/3GfxWFCy/forge_updates.json
+[29Jul2024 15:41:10.900] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.net.http.HttpConnectTimeoutException: HTTP connect timed out
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
@@ -202,8 +186,8 @@ Caused by: java.net.ConnectException: HTTP connect timed out
 	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[29Jul2024 14:32:46.371] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[29Jul2024 14:33:01.371] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[29Jul2024 15:41:10.902] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_warp_portals] Starting version check at https://api.modrinth.com/updates/Ub1JbeSt/forge_updates.json
+[29Jul2024 15:41:25.908] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.net.http.HttpConnectTimeoutException: HTTP connect timed out
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
@@ -219,8 +203,8 @@ Caused by: java.net.ConnectException: HTTP connect timed out
 	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[29Jul2024 14:33:01.372] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsswamphutoverhaul] Starting version check at https://api.modrinth.com/updates/nWSeFpQt/forge_updates.json
-[29Jul2024 14:33:16.375] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[29Jul2024 15:41:25.910] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsjungletempleoverhaul] Starting version check at https://api.modrinth.com/updates/oHjYCS0f/forge_updates.json
+[29Jul2024 15:41:40.916] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.net.http.HttpConnectTimeoutException: HTTP connect timed out
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
@@ -236,8 +220,8 @@ Caused by: java.net.ConnectException: HTTP connect timed out
 	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[29Jul2024 14:33:16.376] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsancientcityoverhaul] Starting version check at https://api.modrinth.com/updates/DNuNq5bb/forge_updates.json
-[29Jul2024 14:33:31.381] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[29Jul2024 15:41:40.918] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsstrongholdrework] Starting version check at https://api.modrinth.com/updates/rYocd2LE/forge_updates.json
+[29Jul2024 15:41:55.924] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.net.http.HttpConnectTimeoutException: HTTP connect timed out
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
@@ -253,8 +237,109 @@ Caused by: java.net.ConnectException: HTTP connect timed out
 	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[29Jul2024 14:35:18.135] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3366ms or 67 ticks behind
-[29Jul2024 14:36:19.839] [Yggdrasil Key Fetcher/ERROR] [com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo/]: Failed to request yggdrasil public key
+[29Jul2024 15:41:55.927] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsendcastlestandalone] Starting version check at https://api.modrinth.com/updates/WIs8E6hv/forge_updates.json
+[29Jul2024 15:42:10.930] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:123) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:156) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:104) [fmlcore-1.21-51.0.25.jar!/:1.0]
+Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
+Caused by: java.net.ConnectException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
+[29Jul2024 15:42:10.932] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsoceanmonumentoverhaul] Starting version check at https://api.modrinth.com/updates/z6GJ3ycD/forge_updates.json
+[29Jul2024 15:42:25.936] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:123) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:156) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:104) [fmlcore-1.21-51.0.25.jar!/:1.0]
+Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
+Caused by: java.net.ConnectException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
+[29Jul2024 15:42:25.937] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morevanillashields] Starting version check at https://raw.githubusercontent.com/Rajhab/MoreVanillaShields-UpdateChecker/main/update.json
+[29Jul2024 15:42:40.940] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:123) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:156) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:104) [fmlcore-1.21-51.0.25.jar!/:1.0]
+Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
+Caused by: java.net.ConnectException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
+[29Jul2024 15:42:40.941] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[29Jul2024 15:42:55.945] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:123) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:156) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:104) [fmlcore-1.21-51.0.25.jar!/:1.0]
+Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
+Caused by: java.net.ConnectException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
+[29Jul2024 15:42:55.946] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsswamphutoverhaul] Starting version check at https://api.modrinth.com/updates/nWSeFpQt/forge_updates.json
+[29Jul2024 15:43:10.950] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:123) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:156) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:104) [fmlcore-1.21-51.0.25.jar!/:1.0]
+Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
+Caused by: java.net.ConnectException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
+[29Jul2024 15:43:10.951] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsancientcityoverhaul] Starting version check at https://api.modrinth.com/updates/DNuNq5bb/forge_updates.json
+[29Jul2024 15:43:25.958] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:123) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:156) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:104) [fmlcore-1.21-51.0.25.jar!/:1.0]
+Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
+Caused by: java.net.ConnectException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
+[29Jul2024 15:44:52.179] [Yggdrasil Key Fetcher/ERROR] [com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo/]: Failed to request yggdrasil public key
 com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to Connect timed out
 	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:108) ~[authlib-6.0.54.jar!/:?]
 	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-6.0.54.jar!/:?]
@@ -287,234 +372,15 @@ Caused by: java.net.SocketTimeoutException: Connect timed out
 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
 	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:84) ~[authlib-6.0.54.jar!/:?]
 	... 9 more
-[29Jul2024 14:37:50.586] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/1464, l='ServerLevel[world]', x=-182.90, y=75.00, z=1941.70] died, message: 'Fletcher was slain by whitehairguy using [Hell Destroyer]'
-[29Jul2024 14:44:11.672] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/birch_drakkar' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.673] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/birch_cog' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.674] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/bamboo_galley' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.674] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/oak_brigg' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.675] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/bamboo_cog' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.675] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/spruce_cog' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.676] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/mangrove_drakkar' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.676] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/acacia_cog' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.677] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/cherry_drakkar' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.677] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/dark_oak_drakkar' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.678] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/misc/sail' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.679] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/jungle_drakkar' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.679] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/birch_brigg' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.680] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/acacia_drakkar' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.680] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/jungle_cog' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.680] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/cherry_galley' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.682] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/dark_oak_brigg' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.683] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/acacia_galley' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.683] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/birch_galley' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.683] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/cherry_brigg' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.684] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/spruce_brigg' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.684] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/oak_cog' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.685] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/oak_drakkar' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.686] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/oak_galley' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.686] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/mangrove_brigg' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.687] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/jungle_galley' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.687] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/acacia_brigg' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.688] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/dark_oak_galley' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.688] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/bamboo_brigg' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.689] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/jungle_brigg' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.689] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/spruce_drakkar' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.690] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/bamboo_drakkar' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.691] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/mangrove_cog' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.691] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/cherry_cog' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.692] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/mangrove_galley' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.692] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/spruce_galley' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.693] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/dark_oak_cog' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.693] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/combat/cannon' in progress file ./world/advancements/d69f9e35-eb9a-358b-937c-075dea2d6c9a.json - it doesn't exist anymore?
-[29Jul2024 14:44:11.730] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:dark_oak_galley removed now.
-[29Jul2024 14:44:11.730] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:birch_galley removed now.
-[29Jul2024 14:44:11.731] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:acacia_cog removed now.
-[29Jul2024 14:44:11.731] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:sail removed now.
-[29Jul2024 14:44:11.731] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:bamboo_galley removed now.
-[29Jul2024 14:44:11.732] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:dark_oak_drakkar removed now.
-[29Jul2024 14:44:11.732] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:cherry_brigg removed now.
-[29Jul2024 14:44:11.732] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:acacia_brigg removed now.
-[29Jul2024 14:44:11.733] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:bamboo_brigg removed now.
-[29Jul2024 14:44:11.733] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:spruce_galley removed now.
-[29Jul2024 14:44:11.734] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:oak_cog removed now.
-[29Jul2024 14:44:11.734] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:cherry_drakkar removed now.
-[29Jul2024 14:44:11.734] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:jungle_galley removed now.
-[29Jul2024 14:44:11.735] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:dark_oak_cog removed now.
-[29Jul2024 14:44:11.735] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:jungle_cog removed now.
-[29Jul2024 14:44:11.736] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:spruce_cog removed now.
-[29Jul2024 14:44:11.736] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:mangrove_brigg removed now.
-[29Jul2024 14:44:11.736] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:bamboo_drakkar removed now.
-[29Jul2024 14:44:11.737] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:spruce_brigg removed now.
-[29Jul2024 14:44:11.737] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:cherry_galley removed now.
-[29Jul2024 14:44:11.738] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:jungle_drakkar removed now.
-[29Jul2024 14:44:11.738] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:mangrove_galley removed now.
-[29Jul2024 14:44:11.738] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:jungle_brigg removed now.
-[29Jul2024 14:44:11.739] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:spruce_drakkar removed now.
-[29Jul2024 14:44:11.739] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:bamboo_cog removed now.
-[29Jul2024 14:44:11.740] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:dark_oak_brigg removed now.
-[29Jul2024 14:44:11.740] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:birch_drakkar removed now.
-[29Jul2024 14:44:11.741] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:cannon removed now.
-[29Jul2024 14:44:11.741] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:cherry_cog removed now.
-[29Jul2024 14:44:11.741] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:oak_brigg removed now.
-[29Jul2024 14:44:11.741] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:mangrove_drakkar removed now.
-[29Jul2024 14:44:11.742] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:cannon_ball removed now.
-[29Jul2024 14:44:11.742] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:birch_brigg removed now.
-[29Jul2024 14:44:11.742] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:mangrove_cog removed now.
-[29Jul2024 14:44:11.743] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:oak_drakkar removed now.
-[29Jul2024 14:44:11.743] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:acacia_drakkar removed now.
-[29Jul2024 14:44:11.744] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:oak_galley removed now.
-[29Jul2024 14:44:11.744] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:birch_cog removed now.
-[29Jul2024 14:44:11.745] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:acacia_galley removed now.
-[29Jul2024 14:44:11.745] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:dark_oak_galley removed now.
-[29Jul2024 14:44:11.745] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:birch_galley removed now.
-[29Jul2024 14:44:11.745] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:acacia_cog removed now.
-[29Jul2024 14:44:11.746] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:sail removed now.
-[29Jul2024 14:44:11.746] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:bamboo_galley removed now.
-[29Jul2024 14:44:11.746] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:dark_oak_drakkar removed now.
-[29Jul2024 14:44:11.746] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:cherry_brigg removed now.
-[29Jul2024 14:44:11.747] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:acacia_brigg removed now.
-[29Jul2024 14:44:11.747] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:bamboo_brigg removed now.
-[29Jul2024 14:44:11.747] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:spruce_galley removed now.
-[29Jul2024 14:44:11.748] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:oak_cog removed now.
-[29Jul2024 14:44:11.748] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:cherry_drakkar removed now.
-[29Jul2024 14:44:11.749] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:jungle_galley removed now.
-[29Jul2024 14:44:11.749] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:dark_oak_cog removed now.
-[29Jul2024 14:44:11.749] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:jungle_cog removed now.
-[29Jul2024 14:44:11.750] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:spruce_cog removed now.
-[29Jul2024 14:44:11.750] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:mangrove_brigg removed now.
-[29Jul2024 14:44:11.751] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:bamboo_drakkar removed now.
-[29Jul2024 14:44:11.751] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:spruce_brigg removed now.
-[29Jul2024 14:44:11.751] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:cherry_galley removed now.
-[29Jul2024 14:44:11.752] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:jungle_drakkar removed now.
-[29Jul2024 14:44:11.752] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:mangrove_galley removed now.
-[29Jul2024 14:44:11.752] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:jungle_brigg removed now.
-[29Jul2024 14:44:11.753] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:spruce_drakkar removed now.
-[29Jul2024 14:44:11.753] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:bamboo_cog removed now.
-[29Jul2024 14:44:11.754] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:dark_oak_brigg removed now.
-[29Jul2024 14:44:11.754] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:birch_drakkar removed now.
-[29Jul2024 14:44:11.754] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:cannon removed now.
-[29Jul2024 14:44:11.755] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:cherry_cog removed now.
-[29Jul2024 14:44:11.755] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:oak_brigg removed now.
-[29Jul2024 14:44:11.755] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:mangrove_drakkar removed now.
-[29Jul2024 14:44:11.756] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:cannon_ball removed now.
-[29Jul2024 14:44:11.756] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:birch_brigg removed now.
-[29Jul2024 14:44:11.756] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:mangrove_cog removed now.
-[29Jul2024 14:44:11.757] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:oak_drakkar removed now.
-[29Jul2024 14:44:11.757] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:acacia_drakkar removed now.
-[29Jul2024 14:44:11.757] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:oak_galley removed now.
-[29Jul2024 14:44:11.758] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:birch_cog removed now.
-[29Jul2024 14:44:11.758] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:acacia_galley removed now.
-[29Jul2024 14:44:11.759] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: BrownNiggar[/127.94.241.180:42533] logged in with entity id 4158 at (-194.9385129617255, 77.17675927506424, 1904.5031096130806)
-[29Jul2024 14:44:11.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BrownNiggar joined the game
-[29Jul2024 14:45:22.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BrownNiggar was slain by Iron Golem
-[29Jul2024 14:46:22.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BrownNiggar was slain by Iron Golem
-[29Jul2024 14:46:24.947] [Yggdrasil Key Fetcher/ERROR] [com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo/]: Failed to request yggdrasil public key
-com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to Connect timed out
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:108) ~[authlib-6.0.54.jar!/:?]
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-6.0.54.jar!/:?]
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.54.jar!/:?]
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.54.jar!/:?]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: java.net.SocketTimeoutException: Connect timed out
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546) ~[?:?]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[?:?]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
-	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
-	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1282) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1123) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1675) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599) ~[?:?]
-	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:84) ~[authlib-6.0.54.jar!/:?]
-	... 9 more
-[29Jul2024 14:46:39.643] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: BrownNiggar lost connection: Disconnected
-[29Jul2024 14:46:39.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BrownNiggar left the game
-[29Jul2024 14:49:04.588] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2219ms or 44 ticks behind
-[29Jul2024 14:49:04.625] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy moved too quickly! 2.303859543422732,3.4099500723145724,-17.296340006494574
-[29Jul2024 15:06:30.022] [Yggdrasil Key Fetcher/ERROR] [com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo/]: Failed to request yggdrasil public key
-com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to Connect timed out
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:108) ~[authlib-6.0.54.jar!/:?]
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-6.0.54.jar!/:?]
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.54.jar!/:?]
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.54.jar!/:?]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: java.net.SocketTimeoutException: Connect timed out
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546) ~[?:?]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[?:?]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
-	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
-	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1282) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1123) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1675) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599) ~[?:?]
-	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:84) ~[authlib-6.0.54.jar!/:?]
-	... 9 more
-[29Jul2024 15:06:53.710] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=311, y=48, z=214}
-[29Jul2024 15:06:53.713] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=310, y=48, z=214}
-[29Jul2024 15:06:53.713] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=309, y=49, z=214}
-[29Jul2024 15:06:53.714] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=309, y=48, z=214}
-[29Jul2024 15:06:53.715] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=310, y=49, z=214}
-[29Jul2024 15:06:53.715] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=311, y=49, z=214}
-[29Jul2024 15:06:53.716] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=311, y=50, z=214}
-[29Jul2024 15:06:53.716] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=310, y=50, z=214}
-[29Jul2024 15:06:53.716] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=309, y=50, z=214}
-[29Jul2024 15:06:53.719] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=311, y=48, z=214}
-[29Jul2024 15:06:53.720] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=310, y=48, z=214}
-[29Jul2024 15:06:53.721] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=309, y=49, z=214}
-[29Jul2024 15:06:53.721] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=309, y=48, z=214}
-[29Jul2024 15:06:53.722] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=310, y=49, z=214}
-[29Jul2024 15:06:53.722] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=311, y=49, z=214}
-[29Jul2024 15:06:53.723] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=311, y=50, z=214}
-[29Jul2024 15:06:53.723] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=310, y=50, z=214}
-[29Jul2024 15:06:53.723] [Worker-Main-5/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=309, y=50, z=214}
-[29Jul2024 15:06:56.800] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=311, y=48, z=214}
-[29Jul2024 15:06:56.800] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=310, y=48, z=214}
-[29Jul2024 15:06:56.801] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=309, y=49, z=214}
-[29Jul2024 15:06:56.801] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=309, y=48, z=214}
-[29Jul2024 15:06:56.801] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=310, y=49, z=214}
-[29Jul2024 15:06:56.801] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=311, y=49, z=214}
-[29Jul2024 15:06:56.802] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=311, y=50, z=214}
-[29Jul2024 15:06:56.802] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=310, y=50, z=214}
-[29Jul2024 15:06:56.803] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=309, y=50, z=214}
-[29Jul2024 15:08:46.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <whitehairguy> check
-[29Jul2024 15:09:50.235] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy lost connection: Disconnected
-[29Jul2024 15:09:50.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy left the game
-[29Jul2024 15:09:58.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[29Jul2024 15:09:58.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[29Jul2024 15:09:58.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[29Jul2024 15:09:58.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[29Jul2024 15:09:58.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[29Jul2024 15:09:58.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[29Jul2024 15:09:58.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[29Jul2024 15:09:58.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[29Jul2024 15:09:58.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[29Jul2024 15:09:58.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[29Jul2024 15:48:44.276] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy lost connection: Disconnected
+[29Jul2024 15:48:44.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy left the game
+[29Jul2024 15:49:15.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[29Jul2024 15:49:15.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[29Jul2024 15:49:15.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[29Jul2024 15:49:15.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[29Jul2024 15:49:15.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[29Jul2024 15:49:15.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[29Jul2024 15:49:15.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[29Jul2024 15:49:15.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[29Jul2024 15:49:15.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[29Jul2024 15:49:15.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

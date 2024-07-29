@@ -23,6 +23,7 @@
       "minecraft:old_growth_spruce_taiga": "2024-07-20 14:38:53 +0530",
       "minecraft:bamboo_jungle": "2024-07-20 23:13:43 +0530",
       "minecraft:wooded_badlands": "2024-07-23 08:58:59 +0530",
+      "minecraft:windswept_savanna": "2024-07-29 15:43:30 +0530",
       "minecraft:warm_ocean": "2024-07-23 08:48:51 +0530",
       "minecraft:badlands": "2024-07-23 09:05:06 +0530",
       "minecraft:flower_forest": "2024-07-19 05:58:15 +0530",
@@ -255,6 +256,7 @@
       "minecraft:zombified_piglin": "2024-07-19 20:07:18 +0530",
       "minecraft:witch": "2024-07-23 10:42:05 +0530",
       "minecraft:wither_skeleton": "2024-07-19 20:08:25 +0530",
+      "minecraft:husk": "2024-07-29 15:41:45 +0530",
       "minecraft:ender_dragon": "2024-07-22 03:30:12 +0530",
       "minecraft:shulker": "2024-07-22 04:01:19 +0530",
       "minecraft:cave_spider": "2024-07-20 14:43:51 +0530",
@@ -4812,6 +4814,12 @@
   "minecraft:recipes/building_blocks/waxed_cut_copper_slab_from_waxed_copper_block_stonecutting": {
     "criteria": {
       "has_waxed_copper_block": "2024-07-29 14:57:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/creeper_banner_pattern": {
+    "criteria": {
+      "has_creeper_head": "2024-07-29 15:47:17 +0530"
     },
     "done": true
   },
