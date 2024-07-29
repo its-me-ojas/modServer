@@ -35,121 +35,7 @@
     },
     "done": false
   },
-  "smallships:recipes/transportation/birch_drakkar": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/birch_cog": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/mangrove_boat": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/bamboo_galley": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/oak_brigg": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/bamboo_cog": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/spruce_cog": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/mangrove_drakkar": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/acacia_cog": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/cherry_drakkar": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/dark_oak_drakkar": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/misc/sail": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/jungle_drakkar": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/birch_brigg": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/acacia_drakkar": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/jungle_cog": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/cherry_galley": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/dark_oak_brigg": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/acacia_galley": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/birch_galley": {
     "criteria": {
       "in_water": "2024-07-29 12:05:11 +0530"
     },
@@ -167,43 +53,7 @@
     },
     "done": true
   },
-  "smallships:recipes/transportation/cherry_brigg": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/spruce_brigg": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/oak_cog": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/oak_drakkar": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/bamboo_raft": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/oak_galley": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/mangrove_brigg": {
     "criteria": {
       "in_water": "2024-07-29 12:05:11 +0530"
     },
@@ -215,73 +65,13 @@
     },
     "done": true
   },
-  "smallships:recipes/transportation/jungle_galley": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/acacia_brigg": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/dark_oak_galley": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/bamboo_brigg": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
       "in_water": "2024-07-29 12:05:11 +0530"
     },
     "done": true
   },
-  "smallships:recipes/transportation/jungle_brigg": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/oak_boat": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/spruce_drakkar": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/bamboo_drakkar": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/mangrove_cog": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/cherry_cog": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/mangrove_galley": {
     "criteria": {
       "in_water": "2024-07-29 12:05:11 +0530"
     },
@@ -294,18 +84,6 @@
     "done": true
   },
   "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/spruce_galley": {
-    "criteria": {
-      "in_water": "2024-07-29 12:05:11 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/transportation/dark_oak_cog": {
     "criteria": {
       "in_water": "2024-07-29 12:05:11 +0530"
     },
@@ -326,12 +104,6 @@
   "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
       "has_leather": "2024-07-29 12:06:41 +0530"
-    },
-    "done": true
-  },
-  "smallships:recipes/combat/cannon": {
-    "criteria": {
-      "has_ship": "2024-07-29 12:06:41 +0530"
     },
     "done": true
   },
