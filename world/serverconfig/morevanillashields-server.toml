@@ -1,0 +1,4 @@
+["Config for More Vanilla Shields!"]
+	#README!!!!!!!!!!!!!!!!!!!! Only change the Values before creating a world or a server! Or change the values before creating or having a Shield! If you change the values (and you already used a shield), your world should break
+	#If you want tooltips to be enabled then let it on true
+	enableTooltips = true
