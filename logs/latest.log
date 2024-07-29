@@ -1,28 +1,28 @@
-[29Jul2024 15:54:58.112] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server]
-[29Jul2024 15:54:58.115] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.3+7-LTS-152
-[29Jul2024 15:54:58.117] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.3 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[29Jul2024 15:54:58.394] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
-[29Jul2024 15:54:58.648] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
-[29Jul2024 15:54:58.927] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[29Jul2024 15:55:00.147] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[29Jul2024 15:55:00.148] [main/ERROR] [mixin/]: Mixin config weaponmaster_ydm.mixins.json does not specify "minVersion" or "requiredFeatures" property
-[29Jul2024 15:55:00.155] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments []
-[29Jul2024 15:55:01.002] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
-[29Jul2024 15:55:01.379] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
-[29Jul2024 15:55:07.163] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.74.
-[29Jul2024 15:55:07.227] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.25, for MC 1.21 with MCP 20240613.102039
-[29Jul2024 15:55:07.227] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.25 Initialized
-[29Jul2024 15:55:07.274] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[29Jul2024 15:55:08.175] [modloading-worker-0/INFO] [com.rajhab.morevanillashields_mod.morevanillashields/]: morevanillashields: This mod now runs with a config file. Feel free to use it!
-[29Jul2024 15:55:08.285] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[29Jul2024 15:55:08.285] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
-[29Jul2024 15:55:08.290] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
-[29Jul2024 15:55:08.291] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[29Jul2024 15:55:08.828] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
-[29Jul2024 15:55:09.986] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[29Jul2024 15:55:10.846] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: AHEAD Current: 1-v4.3 Target: null
-[29Jul2024 15:55:10.848] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
-[29Jul2024 15:55:10.857] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[29Jul2024 17:39:04.914] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server]
+[29Jul2024 17:39:04.917] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.3+7-LTS-152
+[29Jul2024 17:39:04.918] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.3 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[29Jul2024 17:39:05.063] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[29Jul2024 17:39:05.286] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[29Jul2024 17:39:05.589] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[29Jul2024 17:39:06.635] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[29Jul2024 17:39:06.635] [main/ERROR] [mixin/]: Mixin config weaponmaster_ydm.mixins.json does not specify "minVersion" or "requiredFeatures" property
+[29Jul2024 17:39:06.643] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments []
+[29Jul2024 17:39:07.227] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
+[29Jul2024 17:39:07.523] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
+[29Jul2024 17:39:11.482] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.74.
+[29Jul2024 17:39:11.545] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.25, for MC 1.21 with MCP 20240613.102039
+[29Jul2024 17:39:11.545] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.25 Initialized
+[29Jul2024 17:39:11.574] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[29Jul2024 17:39:12.086] [modloading-worker-0/INFO] [com.rajhab.morevanillashields_mod.morevanillashields/]: morevanillashields: This mod now runs with a config file. Feel free to use it!
+[29Jul2024 17:39:12.146] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[29Jul2024 17:39:12.146] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[29Jul2024 17:39:12.151] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[29Jul2024 17:39:12.152] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[29Jul2024 17:39:12.388] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[29Jul2024 17:39:13.225] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[29Jul2024 17:39:13.559] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: AHEAD Current: 1-v4.3 Target: null
+[29Jul2024 17:39:13.559] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[29Jul2024 17:39:13.563] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.net.ConnectException: null
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:951) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
@@ -89,41 +89,41 @@ Caused by: java.nio.channels.UnresolvedAddressException
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1047) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:930) ~[java.net.http:?]
 	... 5 more
-[29Jul2024 15:55:10.863] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsnetherfortressoverhaul] Starting version check at https://api.modrinth.com/updates/8Dbnvm77/forge_updates.json
-[29Jul2024 15:55:11.327] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsnetherfortressoverhaul] Found status: AHEAD Current: 1-v2.1 Target: null
-[29Jul2024 15:55:11.327] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernspillageroutpostoverhaul] Starting version check at https://api.modrinth.com/updates/QIt10I7z/forge_updates.json
-[29Jul2024 15:55:11.781] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernspillageroutpostoverhaul] Found status: AHEAD Current: 1-v2.2 Target: null
-[29Jul2024 15:55:11.782] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsdeserttempleoverhaul] Starting version check at https://api.modrinth.com/updates/7JTDDmRT/forge_updates.json
-[29Jul2024 15:55:12.225] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsdeserttempleoverhaul] Found status: AHEAD Current: 1-v1.1 Target: null
-[29Jul2024 15:55:12.226] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernswoodlandmansionoverhaul] Starting version check at https://api.modrinth.com/updates/3GfxWFCy/forge_updates.json
-[29Jul2024 15:55:12.457] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1314 recipes
-[29Jul2024 15:55:12.690] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernswoodlandmansionoverhaul] Found status: AHEAD Current: 1-v1.1 Target: null
-[29Jul2024 15:55:12.690] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_warp_portals] Starting version check at https://api.modrinth.com/updates/Ub1JbeSt/forge_updates.json
-[29Jul2024 15:55:12.738] [main/ERROR] [net.minecraft.advancements.AdvancementTree/]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
-[29Jul2024 15:55:12.739] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1440 advancements
-[29Jul2024 15:55:12.756] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
-[29Jul2024 15:55:13.290] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_warp_portals] Found status: OUTDATED Current: 1.4.0 Target: 1.4.0+mod
-[29Jul2024 15:55:13.291] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsjungletempleoverhaul] Starting version check at https://api.modrinth.com/updates/oHjYCS0f/forge_updates.json
-[29Jul2024 15:55:13.851] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsjungletempleoverhaul] Found status: AHEAD Current: 1-v1.1 Target: null
-[29Jul2024 15:55:13.852] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsstrongholdrework] Starting version check at https://api.modrinth.com/updates/rYocd2LE/forge_updates.json
-[29Jul2024 15:55:14.041] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21
-[29Jul2024 15:55:14.041] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[29Jul2024 15:55:14.042] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[29Jul2024 15:55:14.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[29Jul2024 15:55:14.117] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[29Jul2024 15:55:14.283] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsstrongholdrework] Found status: AHEAD Current: 1-v2.1 Target: null
-[29Jul2024 15:55:14.285] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsendcastlestandalone] Starting version check at https://api.modrinth.com/updates/WIs8E6hv/forge_updates.json
-[29Jul2024 15:55:14.343] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[29Jul2024 15:55:14.423] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[29Jul2024 15:55:14.425] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[29Jul2024 15:55:14.427] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[29Jul2024 15:55:14.428] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[29Jul2024 15:55:14.502] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[29Jul2024 15:55:14.747] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsendcastlestandalone] Found status: AHEAD Current: 1-v1 Target: null
-[29Jul2024 15:55:14.750] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsoceanmonumentoverhaul] Starting version check at https://api.modrinth.com/updates/z6GJ3ycD/forge_updates.json
-[29Jul2024 15:55:15.229] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsoceanmonumentoverhaul] Found status: AHEAD Current: 1-v1.1 Target: null
-[29Jul2024 15:55:15.265] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morevanillashields] Starting version check at https://raw.githubusercontent.com/Rajhab/MoreVanillaShields-UpdateChecker/main/update.json
-[29Jul2024 15:55:15.275] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[29Jul2024 17:39:13.569] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsnetherfortressoverhaul] Starting version check at https://api.modrinth.com/updates/8Dbnvm77/forge_updates.json
+[29Jul2024 17:39:13.971] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsnetherfortressoverhaul] Found status: AHEAD Current: 1-v2.1 Target: null
+[29Jul2024 17:39:13.971] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernspillageroutpostoverhaul] Starting version check at https://api.modrinth.com/updates/QIt10I7z/forge_updates.json
+[29Jul2024 17:39:14.429] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernspillageroutpostoverhaul] Found status: AHEAD Current: 1-v2.2 Target: null
+[29Jul2024 17:39:14.429] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsdeserttempleoverhaul] Starting version check at https://api.modrinth.com/updates/7JTDDmRT/forge_updates.json
+[29Jul2024 17:39:14.817] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsdeserttempleoverhaul] Found status: AHEAD Current: 1-v1.1 Target: null
+[29Jul2024 17:39:14.817] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernswoodlandmansionoverhaul] Starting version check at https://api.modrinth.com/updates/3GfxWFCy/forge_updates.json
+[29Jul2024 17:39:15.193] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernswoodlandmansionoverhaul] Found status: AHEAD Current: 1-v1.1 Target: null
+[29Jul2024 17:39:15.194] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_warp_portals] Starting version check at https://api.modrinth.com/updates/Ub1JbeSt/forge_updates.json
+[29Jul2024 17:39:15.320] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1314 recipes
+[29Jul2024 17:39:15.565] [main/ERROR] [net.minecraft.advancements.AdvancementTree/]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[29Jul2024 17:39:15.565] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1440 advancements
+[29Jul2024 17:39:15.577] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
+[29Jul2024 17:39:15.666] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_warp_portals] Found status: OUTDATED Current: 1.4.0 Target: 1.4.0+mod
+[29Jul2024 17:39:15.667] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsjungletempleoverhaul] Starting version check at https://api.modrinth.com/updates/oHjYCS0f/forge_updates.json
+[29Jul2024 17:39:16.052] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsjungletempleoverhaul] Found status: AHEAD Current: 1-v1.1 Target: null
+[29Jul2024 17:39:16.052] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsstrongholdrework] Starting version check at https://api.modrinth.com/updates/rYocd2LE/forge_updates.json
+[29Jul2024 17:39:16.320] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21
+[29Jul2024 17:39:16.321] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[29Jul2024 17:39:16.321] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[29Jul2024 17:39:16.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[29Jul2024 17:39:16.383] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[29Jul2024 17:39:16.420] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsstrongholdrework] Found status: AHEAD Current: 1-v2.1 Target: null
+[29Jul2024 17:39:16.421] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsendcastlestandalone] Starting version check at https://api.modrinth.com/updates/WIs8E6hv/forge_updates.json
+[29Jul2024 17:39:16.493] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[29Jul2024 17:39:16.536] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[29Jul2024 17:39:16.537] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[29Jul2024 17:39:16.537] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[29Jul2024 17:39:16.538] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[29Jul2024 17:39:16.585] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[29Jul2024 17:39:16.820] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsendcastlestandalone] Found status: AHEAD Current: 1-v1 Target: null
+[29Jul2024 17:39:16.828] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsoceanmonumentoverhaul] Starting version check at https://api.modrinth.com/updates/z6GJ3ycD/forge_updates.json
+[29Jul2024 17:39:17.315] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsoceanmonumentoverhaul] Found status: AHEAD Current: 1-v1.1 Target: null
+[29Jul2024 17:39:17.321] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morevanillashields] Starting version check at https://raw.githubusercontent.com/Rajhab/MoreVanillaShields-UpdateChecker/main/update.json
+[29Jul2024 17:39:17.346] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.net.ConnectException: null
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:951) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
@@ -190,260 +190,30 @@ Caused by: java.nio.channels.UnresolvedAddressException
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1047) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:930) ~[java.net.http:?]
 	... 5 more
-[29Jul2024 15:55:15.285] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[29Jul2024 15:55:16.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[29Jul2024 15:55:16.395] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 51.0.25 Target: 51.0.29
-[29Jul2024 15:55:16.396] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsswamphutoverhaul] Starting version check at https://api.modrinth.com/updates/nWSeFpQt/forge_updates.json
-[29Jul2024 15:55:16.696] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Jul2024 15:55:16.777] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29Jul2024 15:55:16.834] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsswamphutoverhaul] Found status: AHEAD Current: 1-v2 Target: null
-[29Jul2024 15:55:16.835] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsancientcityoverhaul] Starting version check at https://api.modrinth.com/updates/DNuNq5bb/forge_updates.json
-[29Jul2024 15:55:16.882] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 616 ms
-[29Jul2024 15:55:16.883] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.422s)! For help, type "help"
-[29Jul2024 15:55:16.913] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[29Jul2024 15:55:16.914] [Server thread/INFO] [com.rajhab.morevanillashields_mod.morevanillashields/]: morevanillashields: This mod is now running on a server. Please report any error or bugs.
-[29Jul2024 15:55:17.300] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsancientcityoverhaul] Found status: AHEAD Current: 1-v2 Target: null
-[29Jul2024 15:56:05.078] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: whitehairguy[/127.43.231.74:50384] logged in with entity id 7 at (2030.6525487020795, 84.0, -17632.30000001192)
-[29Jul2024 15:56:05.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy joined the game
-[29Jul2024 15:56:09.666] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4846ms or 96 ticks behind
-[29Jul2024 15:56:38.049] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/combat/cannon' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.051] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/birch_drakkar' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.052] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/birch_cog' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.053] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/bamboo_galley' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.053] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/oak_brigg' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.055] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/bamboo_cog' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.056] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/spruce_cog' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.056] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/mangrove_drakkar' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.057] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/acacia_cog' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.058] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/cherry_drakkar' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.059] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/dark_oak_drakkar' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.059] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/misc/sail' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.060] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/jungle_drakkar' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.062] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/birch_brigg' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.063] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/acacia_drakkar' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.063] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/jungle_cog' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.064] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/cherry_galley' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.065] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/dark_oak_brigg' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.066] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/acacia_galley' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.067] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/birch_galley' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.068] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/cherry_brigg' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.070] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/spruce_brigg' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.070] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/oak_cog' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.071] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/oak_drakkar' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.072] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/oak_galley' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.073] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/mangrove_brigg' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.074] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/jungle_galley' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.075] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/acacia_brigg' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.076] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/dark_oak_galley' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.076] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/bamboo_brigg' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.077] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/jungle_brigg' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.078] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/spruce_drakkar' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.079] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/bamboo_drakkar' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.080] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/mangrove_cog' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.081] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/cherry_cog' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.082] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/mangrove_galley' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.082] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/spruce_galley' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.083] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'smallships:recipes/transportation/dark_oak_cog' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[29Jul2024 15:56:38.110] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:dark_oak_drakkar removed now.
-[29Jul2024 15:56:38.111] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:bamboo_cog removed now.
-[29Jul2024 15:56:38.111] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:acacia_drakkar removed now.
-[29Jul2024 15:56:38.112] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:mangrove_drakkar removed now.
-[29Jul2024 15:56:38.113] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:acacia_cog removed now.
-[29Jul2024 15:56:38.114] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:spruce_galley removed now.
-[29Jul2024 15:56:38.115] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:spruce_cog removed now.
-[29Jul2024 15:56:38.115] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:jungle_brigg removed now.
-[29Jul2024 15:56:38.116] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:mangrove_cog removed now.
-[29Jul2024 15:56:38.117] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:acacia_galley removed now.
-[29Jul2024 15:56:38.117] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:dark_oak_cog removed now.
-[29Jul2024 15:56:38.118] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:jungle_drakkar removed now.
-[29Jul2024 15:56:38.119] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:acacia_brigg removed now.
-[29Jul2024 15:56:38.121] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:dark_oak_galley removed now.
-[29Jul2024 15:56:38.121] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:jungle_cog removed now.
-[29Jul2024 15:56:38.122] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:mangrove_galley removed now.
-[29Jul2024 15:56:38.123] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:oak_brigg removed now.
-[29Jul2024 15:56:38.124] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:dark_oak_brigg removed now.
-[29Jul2024 15:56:38.124] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:oak_cog removed now.
-[29Jul2024 15:56:38.125] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:birch_galley removed now.
-[29Jul2024 15:56:38.127] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:cherry_brigg removed now.
-[29Jul2024 15:56:38.127] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:cherry_galley removed now.
-[29Jul2024 15:56:38.128] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:spruce_drakkar removed now.
-[29Jul2024 15:56:38.129] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:birch_drakkar removed now.
-[29Jul2024 15:56:38.129] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:cherry_cog removed now.
-[29Jul2024 15:56:38.130] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:birch_brigg removed now.
-[29Jul2024 15:56:38.131] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:oak_galley removed now.
-[29Jul2024 15:56:38.131] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:mangrove_brigg removed now.
-[29Jul2024 15:56:38.133] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:spruce_brigg removed now.
-[29Jul2024 15:56:38.133] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:cannon removed now.
-[29Jul2024 15:56:38.134] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:oak_drakkar removed now.
-[29Jul2024 15:56:38.135] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:birch_cog removed now.
-[29Jul2024 15:56:38.135] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:bamboo_galley removed now.
-[29Jul2024 15:56:38.136] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:bamboo_brigg removed now.
-[29Jul2024 15:56:38.136] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:sail removed now.
-[29Jul2024 15:56:38.137] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:cherry_drakkar removed now.
-[29Jul2024 15:56:38.138] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:jungle_galley removed now.
-[29Jul2024 15:56:38.139] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:bamboo_drakkar removed now.
-[29Jul2024 15:56:38.139] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:cannon_ball removed now.
-[29Jul2024 15:56:38.141] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:birch_galley removed now.
-[29Jul2024 15:56:38.141] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:dark_oak_drakkar removed now.
-[29Jul2024 15:56:38.143] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:acacia_brigg removed now.
-[29Jul2024 15:56:38.143] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:bamboo_brigg removed now.
-[29Jul2024 15:56:38.144] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:bamboo_cog removed now.
-[29Jul2024 15:56:38.144] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:acacia_drakkar removed now.
-[29Jul2024 15:56:38.146] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:dark_oak_galley removed now.
-[29Jul2024 15:56:38.146] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:sail removed now.
-[29Jul2024 15:56:38.147] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:cherry_brigg removed now.
-[29Jul2024 15:56:38.147] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:jungle_cog removed now.
-[29Jul2024 15:56:38.148] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:cherry_galley removed now.
-[29Jul2024 15:56:38.150] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:mangrove_galley removed now.
-[29Jul2024 15:56:38.150] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:spruce_drakkar removed now.
-[29Jul2024 15:56:38.151] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:birch_drakkar removed now.
-[29Jul2024 15:56:38.151] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:cherry_cog removed now.
-[29Jul2024 15:56:38.152] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:oak_brigg removed now.
-[29Jul2024 15:56:38.153] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:mangrove_drakkar removed now.
-[29Jul2024 15:56:38.153] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:birch_brigg removed now.
-[29Jul2024 15:56:38.154] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:oak_galley removed now.
-[29Jul2024 15:56:38.154] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:acacia_cog removed now.
-[29Jul2024 15:56:38.155] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:spruce_galley removed now.
-[29Jul2024 15:56:38.155] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:cherry_drakkar removed now.
-[29Jul2024 15:56:38.156] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:jungle_galley removed now.
-[29Jul2024 15:56:38.156] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:spruce_cog removed now.
-[29Jul2024 15:56:38.156] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:mangrove_brigg removed now.
-[29Jul2024 15:56:38.158] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:bamboo_drakkar removed now.
-[29Jul2024 15:56:38.159] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:spruce_brigg removed now.
-[29Jul2024 15:56:38.160] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:jungle_brigg removed now.
-[29Jul2024 15:56:38.160] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:dark_oak_brigg removed now.
-[29Jul2024 15:56:38.161] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:cannon removed now.
-[29Jul2024 15:56:38.161] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:cannon_ball removed now.
-[29Jul2024 15:56:38.162] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:mangrove_cog removed now.
-[29Jul2024 15:56:38.163] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:oak_drakkar removed now.
-[29Jul2024 15:56:38.163] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:birch_cog removed now.
-[29Jul2024 15:56:38.164] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:acacia_galley removed now.
-[29Jul2024 15:56:38.165] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:bamboo_galley removed now.
-[29Jul2024 15:56:38.165] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:oak_cog removed now.
-[29Jul2024 15:56:38.166] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:dark_oak_cog removed now.
-[29Jul2024 15:56:38.167] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: smallships:jungle_drakkar removed now.
-[29Jul2024 15:56:38.167] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rad1108[/127.0.0.1:50424] logged in with entity id 528 at (-179.30250349138095, 75.0, 1922.71579506527)
-[29Jul2024 15:56:38.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rad1108 joined the game
-[29Jul2024 15:57:25.848] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rad1108 lost connection: Disconnected
-[29Jul2024 15:57:25.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rad1108 left the game
-[29Jul2024 16:00:58.835] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy lost connection: Disconnected
-[29Jul2024 16:00:58.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy left the game
-[29Jul2024 16:01:19.645] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: whitehairguy[/127.43.231.74:50502] logged in with entity id 3852 at (2025.300000011921, 56.0, -17638.30000001192)
-[29Jul2024 16:01:19.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy joined the game
-[29Jul2024 16:04:28.364] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rad1108[/127.0.0.1:50550] logged in with entity id 5045 at (-183.10589097653266, 75.5, 1928.0120611821685)
-[29Jul2024 16:04:28.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rad1108 joined the game
-[29Jul2024 16:05:58.048] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy lost connection: Disconnected
-[29Jul2024 16:05:58.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy left the game
-[29Jul2024 16:06:14.779] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: whitehairguy[/127.43.231.74:50569] logged in with entity id 6032 at (2036.300000011921, 86.0, -17630.994729057482)
-[29Jul2024 16:06:14.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy joined the game
-[29Jul2024 16:06:44.899] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy lost connection: Timed out
-[29Jul2024 16:06:44.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy left the game
-[29Jul2024 16:06:59.508] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: whitehairguy[/127.43.231.74:50583] logged in with entity id 6861 at (2036.47059886215, 86.0, -17632.617134322456)
-[29Jul2024 16:06:59.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy joined the game
-[29Jul2024 16:07:13.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <whitehairguy> chel
-[29Jul2024 16:07:44.603] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy lost connection: Timed out
-[29Jul2024 16:07:44.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy left the game
-[29Jul2024 16:08:06.037] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: whitehairguy[/127.43.231.74:50610] logged in with entity id 7599 at (2026.209698040957, 93.0, -17636.702562871727)
-[29Jul2024 16:08:06.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy joined the game
-[29Jul2024 16:08:34.492] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy lost connection: Disconnected
-[29Jul2024 16:08:34.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy left the game
-[29Jul2024 16:09:23.637] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rad1108 lost connection: Disconnected
-[29Jul2024 16:09:23.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rad1108 left the game
-[29Jul2024 16:09:30.319] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rad1108[/127.1.120.238:50654] logged in with entity id 8385 at (-81.87050785535658, 95.0, 1949.1064816740397)
-[29Jul2024 16:09:30.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rad1108 joined the game
-[29Jul2024 16:09:34.140] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rad1108 lost connection: Disconnected
-[29Jul2024 16:09:34.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rad1108 left the game
-[29Jul2024 16:10:09.270] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: whitehairguy[/127.206.192.209:50686] logged in with entity id 8852 at (2028.8061981570215, 92.0, -17638.821348273057)
-[29Jul2024 16:10:09.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy joined the game
-[29Jul2024 16:10:39.394] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy lost connection: Timed out
-[29Jul2024 16:10:39.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy left the game
-[29Jul2024 16:10:59.020] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: whitehairguy[/127.43.231.74:50700] logged in with entity id 9342 at (2028.8061981570215, 92.0, -17638.821348273057)
-[29Jul2024 16:10:59.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy joined the game
-[29Jul2024 16:11:09.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <whitehairguy> svrf
-[29Jul2024 16:12:58.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <whitehairguy> bro
-[29Jul2024 16:13:07.749] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rad1108[/127.0.0.1:50725] logged in with entity id 10385 at (-81.87050785535658, 95.0, 1949.1064816740397)
-[29Jul2024 16:13:07.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rad1108 joined the game
-[29Jul2024 16:14:03.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <whitehairguy> xaero-waypoint:Desert Temple:D:2023:93:-17639:4:false:0:Internal-overworld-waypoints
-[29Jul2024 16:16:40.108] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rad1108 moved too quickly! -8.21634159521227,-2.316058540508436,-15.682349272483407
-[29Jul2024 16:17:12.135] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=311, y=48, z=214}
-[29Jul2024 16:17:12.137] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=310, y=48, z=214}
-[29Jul2024 16:17:12.138] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=309, y=49, z=214}
-[29Jul2024 16:17:12.140] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=309, y=48, z=214}
-[29Jul2024 16:17:12.141] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=310, y=49, z=214}
-[29Jul2024 16:17:12.142] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=311, y=49, z=214}
-[29Jul2024 16:17:12.144] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=311, y=50, z=214}
-[29Jul2024 16:17:12.144] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=310, y=50, z=214}
-[29Jul2024 16:17:12.145] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=309, y=50, z=214}
-[29Jul2024 16:17:20.924] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=217, y=48, z=159}
-[29Jul2024 16:20:29.982] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy lost connection: Timed out
-[29Jul2024 16:20:29.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy left the game
-[29Jul2024 16:20:43.803] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: whitehairguy[/127.43.231.74:50769] logged in with entity id 21544 at (1993.2959762656856, 77.0, -17603.03189635256)
-[29Jul2024 16:20:43.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy joined the game
-[29Jul2024 16:22:36.484] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy lost connection: Disconnected
-[29Jul2024 16:22:36.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy left the game
-[29Jul2024 16:22:41.538] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: whitehairguy[/127.43.231.74:50784] logged in with entity id 22197 at (1987.4074140488538, 78.0, -17601.733489998085)
-[29Jul2024 16:22:41.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy joined the game
-[29Jul2024 16:23:20.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <whitehairguy> che
-[29Jul2024 16:25:01.141] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy lost connection: Disconnected
-[29Jul2024 16:25:01.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy left the game
-[29Jul2024 16:25:06.219] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1950, y=62, z=-17590} BlockPos{x=1950, y=62, z=-17593}
-[29Jul2024 16:25:33.980] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: whitehairguy[/127.43.231.74:50817] logged in with entity id 23212 at (1953.7947209550064, 64.0, -17601.77397832352)
-[29Jul2024 16:25:33.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy joined the game
-[29Jul2024 16:25:53.418] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1978, y=66, z=-17592} BlockPos{x=1979, y=65, z=-17593}
-[29Jul2024 16:26:03.428] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cartographer'/9498, l='ServerLevel[world]', x=1933.67, y=67.50, z=-17645.97] died, message: 'Cartographer hit the ground too hard'
-[29Jul2024 16:27:51.818] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2074, y=65, z=-17577} BlockPos{x=2073, y=64, z=-17578}
-[29Jul2024 16:28:39.844] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy lost connection: Disconnected
-[29Jul2024 16:28:39.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy left the game
-[29Jul2024 16:29:18.421] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: whitehairguy[/127.43.231.74:50875] logged in with entity id 24707 at (2085.434516292625, 64.0, -17568.11959131761)
-[29Jul2024 16:29:18.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy joined the game
-[29Jul2024 16:29:37.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <whitehairguy> ebksv
-[29Jul2024 16:29:38.288] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy lost connection: Disconnected
-[29Jul2024 16:29:38.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy left the game
-[29Jul2024 16:29:42.269] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2116, y=71, z=-17593} BlockPos{x=2115, y=69, z=-17591}
-[29Jul2024 16:29:42.330] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2116, y=71, z=-17593} BlockPos{x=2115, y=69, z=-17591}
-[29Jul2024 16:29:42.364] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2116, y=71, z=-17593} BlockPos{x=2115, y=69, z=-17591}
-[29Jul2024 16:29:48.939] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: whitehairguy[/127.52.238.219:50906] logged in with entity id 24881 at (2086.690901588936, 64.0, -17569.523073646345)
-[29Jul2024 16:29:48.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy joined the game
-[29Jul2024 16:30:49.198] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy lost connection: Timed out
-[29Jul2024 16:30:49.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy left the game
-[29Jul2024 16:31:00.746] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: whitehairguy[/127.43.231.74:50920] logged in with entity id 25349 at (2106.1771611079703, 67.17675927506424, -17584.47152189938)
-[29Jul2024 16:31:00.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy joined the game
-[29Jul2024 16:31:55.515] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2037, y=67, z=-17631} BlockPos{x=2038, y=67, z=-17629}
-[29Jul2024 16:33:11.286] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy lost connection: Disconnected
-[29Jul2024 16:33:11.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy left the game
-[29Jul2024 16:33:49.925] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: whitehairguy[/127.43.231.74:50972] logged in with entity id 26327 at (2068.699999988079, 66.0, -17611.37450815618)
-[29Jul2024 16:33:49.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy joined the game
-[29Jul2024 16:34:17.644] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy lost connection: You logged in from another location
-[29Jul2024 16:34:17.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy left the game
-[29Jul2024 16:34:19.437] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: whitehairguy[/127.43.231.74:50975] logged in with entity id 26501 at (2068.699999988079, 66.0, -17611.37450815618)
-[29Jul2024 16:34:19.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy joined the game
-[29Jul2024 16:34:48.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <whitehairguy> hello
-[29Jul2024 16:34:53.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <whitehairguy> yes
-[29Jul2024 16:36:04.780] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy lost connection: Timed out
-[29Jul2024 16:36:04.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy left the game
-[29Jul2024 16:36:49.864] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: whitehairguy[/127.206.192.209:51022] logged in with entity id 27116 at (2090.9182682133815, 64.0, -17660.58428309311)
-[29Jul2024 16:36:49.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy joined the game
-[29Jul2024 16:36:55.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <whitehairguy> hello
-[29Jul2024 16:37:34.991] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy lost connection: Timed out
-[29Jul2024 16:37:34.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy left the game
-[29Jul2024 16:37:42.786] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rad1108 lost connection: Disconnected
-[29Jul2024 16:37:42.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rad1108 left the game
-[29Jul2024 16:38:22.779] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: whitehairguy[/127.43.231.74:51055] logged in with entity id 28023 at (2049.367652492462, 64.7531999805212, -17642.17066368806)
-[29Jul2024 16:38:22.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy joined the game
-[29Jul2024 16:38:30.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <whitehairguy> yo
-[29Jul2024 16:38:48.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <whitehairguy> gse
-[29Jul2024 16:39:26.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <whitehairguy> bro
-[29Jul2024 16:39:31.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <whitehairguy> check dc
-[29Jul2024 16:39:34.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <whitehairguy> awaz arhi hai?
-[29Jul2024 16:39:52.736] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy lost connection: Disconnected
-[29Jul2024 16:39:52.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy left the game
-[29Jul2024 16:41:22.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[29Jul2024 16:41:22.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[29Jul2024 16:41:22.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[29Jul2024 16:41:22.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[29Jul2024 16:41:22.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[29Jul2024 16:41:22.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[29Jul2024 16:41:22.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[29Jul2024 16:41:22.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[29Jul2024 16:41:22.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[29Jul2024 16:41:22.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[29Jul2024 17:39:17.386] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[29Jul2024 17:39:18.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[29Jul2024 17:39:18.222] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 51.0.25 Target: 51.0.29
+[29Jul2024 17:39:18.223] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsswamphutoverhaul] Starting version check at https://api.modrinth.com/updates/nWSeFpQt/forge_updates.json
+[29Jul2024 17:39:18.325] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29Jul2024 17:39:18.479] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 404 ms
+[29Jul2024 17:39:18.480] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.929s)! For help, type "help"
+[29Jul2024 17:39:18.501] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[29Jul2024 17:39:18.502] [Server thread/INFO] [com.rajhab.morevanillashields_mod.morevanillashields/]: morevanillashields: This mod is now running on a server. Please report any error or bugs.
+[29Jul2024 17:39:18.857] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsswamphutoverhaul] Found status: AHEAD Current: 1-v2 Target: null
+[29Jul2024 17:39:18.857] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsancientcityoverhaul] Starting version check at https://api.modrinth.com/updates/DNuNq5bb/forge_updates.json
+[29Jul2024 17:39:19.291] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsancientcityoverhaul] Found status: AHEAD Current: 1-v2 Target: null
+[29Jul2024 17:40:36.121] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rad1108[/127.0.0.1:53824] logged in with entity id 7 at (2022.699999988079, 91.0, -17638.935933365072)
+[29Jul2024 17:40:36.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rad1108 joined the game
+[29Jul2024 17:40:41.642] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5733ms or 114 ticks behind
+[29Jul2024 18:34:14.879] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rad1108 lost connection: Disconnected
+[29Jul2024 18:34:14.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rad1108 left the game
+[29Jul2024 18:34:32.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[29Jul2024 18:34:32.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[29Jul2024 18:34:32.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[29Jul2024 18:34:32.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[29Jul2024 18:34:32.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[29Jul2024 18:34:32.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[29Jul2024 18:34:32.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[29Jul2024 18:34:32.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[29Jul2024 18:34:32.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[29Jul2024 18:34:32.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

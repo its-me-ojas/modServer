@@ -5059,12 +5059,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/creeper_banner_pattern": {
-    "criteria": {
-      "has_creeper_head": "2024-07-29 16:31:27 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/sandstone_slab": {
     "criteria": {
       "has_sandstone": "2024-07-29 16:13:34 +0530"
@@ -5113,6 +5107,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-07-29 16:13:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2024-07-29 16:13:34 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_rabbit": {
     "criteria": {
       "has_rabbit": "2024-07-29 16:19:12 +0530"
@@ -5131,9 +5137,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+  "minecraft:recipes/misc/creeper_banner_pattern": {
     "criteria": {
-      "has_sandstone": "2024-07-29 16:13:34 +0530"
+      "has_creeper_head": "2024-07-29 16:31:27 +0530"
     },
     "done": true
   },
@@ -5143,15 +5149,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/sandstone_wall": {
-    "criteria": {
-      "has_sandstone": "2024-07-29 16:13:34 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
     "criteria": {
       "has_cut_sandstone": "2024-07-29 16:35:53 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_green_dye": "2024-07-29 18:06:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-07-29 18:06:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-07-29 18:06:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_candle": {
+    "criteria": {
+      "has_green_dye": "2024-07-29 18:06:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-07-29 18:06:43 +0530"
     },
     "done": true
   },
