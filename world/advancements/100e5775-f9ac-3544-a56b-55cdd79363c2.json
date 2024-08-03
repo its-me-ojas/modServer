@@ -5227,5 +5227,29 @@
     },
     "done": true
   },
+  "nova_structures:adventure/find_shrine": {
+    "criteria": {
+      "shrine_combat": "2024-08-03 23:17:40 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-08-03 23:15:47 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-08-03 23:15:47 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2024-08-03 23:15:47 +0530"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }
