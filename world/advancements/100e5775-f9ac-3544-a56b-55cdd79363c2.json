@@ -1951,7 +1951,8 @@
     "criteria": {
       "nether_port": "2024-07-23 06:34:54 +0530",
       "fortress": "2024-07-20 01:08:42 +0530",
-      "skeleton_camp_waste": "2024-07-20 02:03:56 +0530"
+      "skeleton_camp_waste": "2024-07-20 02:03:56 +0530",
+      "nether_keep": "2024-08-10 15:16:58 +0530"
     },
     "done": false
   },
@@ -5350,6 +5351,12 @@
   "minecraft:recipes/building_blocks/brown_terracotta": {
     "criteria": {
       "has_terracotta": "2024-08-07 21:30:48 +0530"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_keep": {
+    "criteria": {
+      "minecraft:nether_keep": "2024-08-10 15:16:58 +0530"
     },
     "done": true
   },
