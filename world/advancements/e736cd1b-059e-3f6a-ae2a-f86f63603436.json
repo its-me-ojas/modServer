@@ -1317,6 +1317,7 @@
     "criteria": {
       "nether_port": "2024-07-23 04:01:39 +0530",
       "fortress": "2024-07-19 20:05:56 +0530",
+      "skeleton_camp_crimson": "2024-08-10 16:39:40 +0530",
       "skeleton_camp_waste": "2024-07-20 02:03:51 +0530",
       "nether_keep": "2024-08-10 15:03:42 +0530",
       "nether_skeleton_tower_crimson": "2024-07-23 07:39:11 +0530",
@@ -4827,6 +4828,24 @@
   "nova_structures:nether/find_keep": {
     "criteria": {
       "minecraft:nether_keep": "2024-08-10 15:03:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2024-08-10 17:02:12 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2024-08-10 17:02:12 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2024-08-10 17:02:12 +0530"
     },
     "done": true
   },
