@@ -4883,12 +4883,6 @@
     },
     "done": true
   },
-  "vanillatweaks:afk_display": {
-    "criteria": {
-      "tick": "2024-08-14 20:44:52 +0530"
-    },
-    "done": true
-  },
   "vanillatweaks:confetti_creepers": {
     "criteria": {
       "tick": "2024-08-14 20:44:52 +0530"
@@ -4902,12 +4896,6 @@
     "done": true
   },
   "vanillatweaks:chunk_loaders": {
-    "criteria": {
-      "tick": "2024-08-14 20:44:52 +0530"
-    },
-    "done": true
-  },
-  "vanillatweaks:custom_nether_portals": {
     "criteria": {
       "tick": "2024-08-14 20:44:52 +0530"
     },
@@ -4970,6 +4958,31 @@
   "minecraft:end/respawn_dragon": {
     "criteria": {
       "summoned_dragon": "2024-08-15 01:28:53 +0530"
+    },
+    "done": true
+  },
+  "tatevancements:hd": {
+    "criteria": {
+      "in_end": "2024-08-15 03:30:54 +0530",
+      "in_overworld": "2024-08-15 03:30:54 +0530",
+      "in_nether": "2024-08-15 03:30:54 +0530"
+    },
+    "done": true
+  },
+  "tatevancements:kill_all_mobs": {
+    "criteria": {
+      "kill_wither_skeleton": "2024-08-15 03:33:33 +0530",
+      "kill_magma_cube": "2024-08-15 03:32:53 +0530",
+      "kill_hoglin": "2024-08-15 03:33:42 +0530",
+      "kill_piglin": "2024-08-15 03:31:31 +0530"
+    },
+    "done": false
+  },
+  "tatevancements:root": {
+    "criteria": {
+      "in_end": "2024-08-15 03:30:54 +0530",
+      "in_overworld": "2024-08-15 03:30:54 +0530",
+      "in_nether": "2024-08-15 03:30:54 +0530"
     },
     "done": true
   },
