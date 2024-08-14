@@ -4855,5 +4855,77 @@
     },
     "done": true
   },
+  "vanillatweaks:root": {
+    "criteria": {
+      "tick": "2024-08-14 20:44:52 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:player_head_drops": {
+    "criteria": {
+      "tick": "2024-08-14 20:44:52 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:wandering_trader_announcements": {
+    "criteria": {
+      "tick": "2024-08-14 20:44:52 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:afk_display": {
+    "criteria": {
+      "tick": "2024-08-14 20:44:52 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:confetti_creepers": {
+    "criteria": {
+      "tick": "2024-08-14 20:44:52 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:armored_elytra": {
+    "criteria": {
+      "tick": "2024-08-14 20:44:52 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:chunk_loaders": {
+    "criteria": {
+      "tick": "2024-08-14 20:44:52 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:custom_nether_portals": {
+    "criteria": {
+      "tick": "2024-08-14 20:44:52 +0530"
+    },
+    "done": true
+  },
+  "graves:check_death_markers_later_in_tick": {
+    "criteria": {
+      "tick": "2024-08-14 20:44:52 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:xp_management": {
+    "criteria": {
+      "tick": "2024-08-14 20:44:52 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:graves": {
+    "criteria": {
+      "tick": "2024-08-14 20:44:52 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:name_colors": {
+    "criteria": {
+      "tick": "2024-08-14 20:44:52 +0530"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }

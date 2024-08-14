@@ -1,546 +1,97 @@
-[14Aug2024 17:55:58.902] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server]
-[14Aug2024 17:55:58.907] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.3+7-LTS-152
-[14Aug2024 17:55:58.908] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.3 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[14Aug2024 17:55:59.089] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
-[14Aug2024 17:55:59.285] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
-[14Aug2024 17:55:59.615] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[14Aug2024 17:56:00.679] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[14Aug2024 17:56:00.679] [main/ERROR] [mixin/]: Mixin config weaponmaster_ydm.mixins.json does not specify "minVersion" or "requiredFeatures" property
-[14Aug2024 17:56:00.687] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments []
-[14Aug2024 17:56:01.694] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
-[14Aug2024 17:56:02.098] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
-[14Aug2024 17:56:07.041] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.74.
-[14Aug2024 17:56:07.110] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.25, for MC 1.21 with MCP 20240613.102039
-[14Aug2024 17:56:07.110] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.25 Initialized
-[14Aug2024 17:56:07.149] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[14Aug2024 17:56:07.851] [modloading-worker-0/INFO] [com.rajhab.morevanillashields_mod.morevanillashields/]: morevanillashields: This mod now runs with a config file. Feel free to use it!
-[14Aug2024 17:56:07.918] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[14Aug2024 17:56:07.919] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
-[14Aug2024 17:56:07.924] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
-[14Aug2024 17:56:07.924] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[14Aug2024 17:56:08.309] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
-[14Aug2024 17:56:09.107] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14Aug2024 17:56:11.045] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1314 recipes
-[14Aug2024 17:56:11.362] [main/ERROR] [net.minecraft.advancements.AdvancementTree/]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
-[14Aug2024 17:56:11.362] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1440 advancements
-[14Aug2024 17:56:11.382] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
-[14Aug2024 17:56:12.407] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21
-[14Aug2024 17:56:12.407] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[14Aug2024 17:56:12.408] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[14Aug2024 17:56:12.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[14Aug2024 17:56:12.544] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[14Aug2024 17:56:12.637] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[14Aug2024 17:56:12.693] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14Aug2024 17:56:12.694] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[14Aug2024 17:56:12.695] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14Aug2024 17:56:12.695] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[14Aug2024 17:56:12.743] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[14Aug2024 17:56:14.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[14Aug2024 17:56:14.420] [Yggdrasil Key Fetcher/ERROR] [com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo/]: Failed to request yggdrasil public key
-com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to Connect timed out
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:108) ~[authlib-6.0.54.jar!/:?]
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-6.0.54.jar!/:?]
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.54.jar!/:?]
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.54.jar!/:?]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: java.net.SocketTimeoutException: Connect timed out
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546) ~[?:?]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[?:?]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
-	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
-	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1282) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1123) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1675) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599) ~[?:?]
-	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:84) ~[authlib-6.0.54.jar!/:?]
-	... 9 more
-[14Aug2024 17:56:14.669] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Aug2024 17:56:14.831] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 407 ms
-[14Aug2024 17:56:14.832] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.121s)! For help, type "help"
-[14Aug2024 17:56:14.860] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[14Aug2024 17:56:14.861] [Server thread/INFO] [com.rajhab.morevanillashields_mod.morevanillashields/]: morevanillashields: This mod is now running on a server. Please report any error or bugs.
-[14Aug2024 17:56:23.360] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:123) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:156) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:104) [fmlcore-1.21-51.0.25.jar!/:1.0]
-Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-Caused by: java.net.ConnectException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[14Aug2024 17:56:23.366] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
-[14Aug2024 17:56:23.379] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-java.net.ConnectException: null
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:951) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:123) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:156) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:104) [fmlcore-1.21-51.0.25.jar!/:1.0]
-Caused by: java.net.ConnectException
-	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1028) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:468) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:134) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:94) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Exchange.java:386) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:570) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:423) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:415) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454) ~[java.net.http:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372) ~[?:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346) ~[java.net.http:?]
-	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2719) ~[?:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:299) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1047) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:930) ~[java.net.http:?]
-	... 5 more
-Caused by: java.nio.channels.UnresolvedAddressException
-	at java.base/sun.nio.ch.Net.checkAddress(Net.java:137) ~[?:?]
-	at java.base/sun.nio.ch.Net.checkAddress(Net.java:145) ~[?:?]
-	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:842) ~[?:?]
-	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:865) ~[?:?]
-	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210) ~[java.net.http:?]
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571) ~[?:?]
-	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:468) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:134) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:94) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Exchange.java:386) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:570) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:423) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:415) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454) ~[java.net.http:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372) ~[?:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346) ~[java.net.http:?]
-	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2719) ~[?:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:299) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1047) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:930) ~[java.net.http:?]
-	... 5 more
-[14Aug2024 17:56:23.383] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsnetherfortressoverhaul] Starting version check at https://api.modrinth.com/updates/8Dbnvm77/forge_updates.json
-[14Aug2024 17:56:38.384] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:123) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:156) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:104) [fmlcore-1.21-51.0.25.jar!/:1.0]
-Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-Caused by: java.net.ConnectException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[14Aug2024 17:56:38.385] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernspillageroutpostoverhaul] Starting version check at https://api.modrinth.com/updates/QIt10I7z/forge_updates.json
-[14Aug2024 17:56:53.387] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:123) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:156) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:104) [fmlcore-1.21-51.0.25.jar!/:1.0]
-Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-Caused by: java.net.ConnectException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[14Aug2024 17:56:53.390] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsdeserttempleoverhaul] Starting version check at https://api.modrinth.com/updates/7JTDDmRT/forge_updates.json
-[14Aug2024 17:57:08.392] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:123) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:156) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:104) [fmlcore-1.21-51.0.25.jar!/:1.0]
-Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-Caused by: java.net.ConnectException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[14Aug2024 17:57:08.395] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernswoodlandmansionoverhaul] Starting version check at https://api.modrinth.com/updates/3GfxWFCy/forge_updates.json
-[14Aug2024 17:57:23.396] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:123) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:156) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:104) [fmlcore-1.21-51.0.25.jar!/:1.0]
-Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-Caused by: java.net.ConnectException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[14Aug2024 17:57:23.399] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_warp_portals] Starting version check at https://api.modrinth.com/updates/Ub1JbeSt/forge_updates.json
-[14Aug2024 17:57:38.402] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:123) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:156) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:104) [fmlcore-1.21-51.0.25.jar!/:1.0]
-Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-Caused by: java.net.ConnectException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[14Aug2024 17:57:38.405] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsjungletempleoverhaul] Starting version check at https://api.modrinth.com/updates/oHjYCS0f/forge_updates.json
-[14Aug2024 17:57:53.408] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:123) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:156) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:104) [fmlcore-1.21-51.0.25.jar!/:1.0]
-Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-Caused by: java.net.ConnectException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[14Aug2024 17:57:53.410] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsstrongholdrework] Starting version check at https://api.modrinth.com/updates/rYocd2LE/forge_updates.json
-[14Aug2024 17:58:08.411] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:123) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:156) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:104) [fmlcore-1.21-51.0.25.jar!/:1.0]
-Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-Caused by: java.net.ConnectException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[14Aug2024 17:58:08.414] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsendcastlestandalone] Starting version check at https://api.modrinth.com/updates/WIs8E6hv/forge_updates.json
-[14Aug2024 17:58:23.414] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:123) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:156) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:104) [fmlcore-1.21-51.0.25.jar!/:1.0]
-Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-Caused by: java.net.ConnectException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[14Aug2024 17:58:23.416] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsoceanmonumentoverhaul] Starting version check at https://api.modrinth.com/updates/z6GJ3ycD/forge_updates.json
-[14Aug2024 17:58:36.433] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rad1108[/127.0.0.1:50850] logged in with entity id 6 at (4237.762499988079, 72.0, -8401.137499988079)
-[14Aug2024 17:58:36.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rad1108 joined the game
-[14Aug2024 17:58:38.418] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:123) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:156) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:104) [fmlcore-1.21-51.0.25.jar!/:1.0]
-Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-Caused by: java.net.ConnectException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[14Aug2024 17:58:38.434] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morevanillashields] Starting version check at https://raw.githubusercontent.com/Rajhab/MoreVanillaShields-UpdateChecker/main/update.json
-[14Aug2024 17:58:38.476] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-java.net.ConnectException: null
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:951) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:123) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:156) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:104) [fmlcore-1.21-51.0.25.jar!/:1.0]
-Caused by: java.net.ConnectException
-	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1028) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:468) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:134) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:94) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Exchange.java:386) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:570) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:423) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:415) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454) ~[java.net.http:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372) ~[?:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346) ~[java.net.http:?]
-	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2719) ~[?:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:299) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1047) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:930) ~[java.net.http:?]
-	... 5 more
-Caused by: java.nio.channels.UnresolvedAddressException
-	at java.base/sun.nio.ch.Net.checkAddress(Net.java:137) ~[?:?]
-	at java.base/sun.nio.ch.Net.checkAddress(Net.java:145) ~[?:?]
-	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:842) ~[?:?]
-	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:865) ~[?:?]
-	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210) ~[java.net.http:?]
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571) ~[?:?]
-	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:468) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:134) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:94) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Exchange.java:386) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:570) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:423) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:415) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454) ~[java.net.http:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372) ~[?:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346) ~[java.net.http:?]
-	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2719) ~[?:?]
-	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:299) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1047) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:930) ~[java.net.http:?]
-	... 5 more
-[14Aug2024 17:58:38.481] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[14Aug2024 17:58:53.485] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:123) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:156) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:104) [fmlcore-1.21-51.0.25.jar!/:1.0]
-Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-Caused by: java.net.ConnectException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[14Aug2024 17:58:53.488] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsswamphutoverhaul] Starting version check at https://api.modrinth.com/updates/nWSeFpQt/forge_updates.json
-[14Aug2024 17:59:08.489] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:123) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:156) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:104) [fmlcore-1.21-51.0.25.jar!/:1.0]
-Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-Caused by: java.net.ConnectException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[14Aug2024 17:59:08.492] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsancientcityoverhaul] Starting version check at https://api.modrinth.com/updates/DNuNq5bb/forge_updates.json
-[14Aug2024 17:59:23.494] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:945) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:123) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:156) ~[fmlcore-1.21-51.0.25.jar!/:1.0]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21-51.0.25/net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:104) [fmlcore-1.21-51.0.25.jar!/:1.0]
-Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-Caused by: java.net.ConnectException: HTTP connect timed out
-	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1778) ~[java.net.http:?]
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1376) ~[java.net.http:?]
-[14Aug2024 18:01:19.716] [Yggdrasil Key Fetcher/ERROR] [com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo/]: Failed to request yggdrasil public key
-com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to Connect timed out
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:108) ~[authlib-6.0.54.jar!/:?]
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-6.0.54.jar!/:?]
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.54.jar!/:?]
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.54.jar!/:?]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: java.net.SocketTimeoutException: Connect timed out
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546) ~[?:?]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[?:?]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
-	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
-	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1282) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1123) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1675) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599) ~[?:?]
-	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:84) ~[authlib-6.0.54.jar!/:?]
-	... 9 more
-[14Aug2024 18:11:25.057] [Yggdrasil Key Fetcher/ERROR] [com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo/]: Failed to request yggdrasil public key
-com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to Connect timed out
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:108) ~[authlib-6.0.54.jar!/:?]
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-6.0.54.jar!/:?]
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.54.jar!/:?]
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.54.jar!/:?]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: java.net.SocketTimeoutException: Connect timed out
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546) ~[?:?]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[?:?]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
-	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
-	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1282) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1123) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1675) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599) ~[?:?]
-	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:84) ~[authlib-6.0.54.jar!/:?]
-	... 9 more
-[14Aug2024 18:27:27.354] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rad1108 moved too quickly! -15.539344765492444,-5.448529905687195,-8.634502675244903
-[14Aug2024 18:31:30.395] [Yggdrasil Key Fetcher/ERROR] [com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo/]: Failed to request yggdrasil public key
-com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to Connect timed out
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:108) ~[authlib-6.0.54.jar!/:?]
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-6.0.54.jar!/:?]
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.54.jar!/:?]
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.54.jar!/:?]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: java.net.SocketTimeoutException: Connect timed out
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546) ~[?:?]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[?:?]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
-	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
-	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
-	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1282) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1123) ~[?:?]
-	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1675) ~[?:?]
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599) ~[?:?]
-	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
-	at SECURE-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:84) ~[authlib-6.0.54.jar!/:?]
-	... 9 more
-[14Aug2024 18:42:16.235] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rad1108 lost connection: Disconnected
-[14Aug2024 18:42:16.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rad1108 left the game
-[14Aug2024 18:42:32.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[14Aug2024 18:42:32.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[14Aug2024 18:42:32.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[14Aug2024 18:42:32.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14Aug2024 18:42:32.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[14Aug2024 18:42:32.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[14Aug2024 18:42:32.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14Aug2024 18:42:32.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14Aug2024 18:42:32.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14Aug2024 18:42:32.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14Aug2024 20:43:50.427] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, --nogui]
+[14Aug2024 20:43:50.433] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Arch Linux OpenJDK 64-Bit Server VM 21.0.4+7
+[14Aug2024 20:43:50.436] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.4 by Arch Linux; OS Linux arch amd64 version 6.10.1-zen1-1-zen
+[14Aug2024 20:43:50.769] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[14Aug2024 20:43:50.990] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///home/crestfallen/Minecraft/modServer/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[14Aug2024 20:43:51.561] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[14Aug2024 20:43:53.800] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[14Aug2024 20:43:53.801] [main/ERROR] [mixin/]: Mixin config weaponmaster_ydm.mixins.json does not specify "minVersion" or "requiredFeatures" property
+[14Aug2024 20:43:53.841] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [--nogui]
+[14Aug2024 20:43:54.897] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///home/crestfallen/Minecraft/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/home/crestfallen/Minecraft/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///home/crestfallen/Minecraft/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/home/crestfallen/Minecraft/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
+[14Aug2024 20:43:55.151] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///home/crestfallen/Minecraft/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/home/crestfallen/Minecraft/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///home/crestfallen/Minecraft/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/home/crestfallen/Minecraft/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
+[14Aug2024 20:44:02.782] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.74.
+[14Aug2024 20:44:02.805] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.25, for MC 1.21 with MCP 20240613.102039
+[14Aug2024 20:44:02.807] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.25 Initialized
+[14Aug2024 20:44:02.822] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[14Aug2024 20:44:03.272] [modloading-worker-0/INFO] [com.rajhab.morevanillashields_mod.morevanillashields/]: morevanillashields: This mod now runs with a config file. Feel free to use it!
+[14Aug2024 20:44:03.299] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[14Aug2024 20:44:03.299] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[14Aug2024 20:44:03.304] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[14Aug2024 20:44:03.305] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[14Aug2024 20:44:03.426] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[14Aug2024 20:44:04.296] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: AHEAD Current: 1-v4.3 Target: null
+[14Aug2024 20:44:04.296] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[14Aug2024 20:44:04.475] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: OUTDATED Current: 3.4.23 Target: 3.4.24
+[14Aug2024 20:44:04.477] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsnetherfortressoverhaul] Starting version check at https://api.modrinth.com/updates/8Dbnvm77/forge_updates.json
+[14Aug2024 20:44:04.741] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14Aug2024 20:44:04.786] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsnetherfortressoverhaul] Found status: AHEAD Current: 1-v2.1 Target: null
+[14Aug2024 20:44:04.786] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernspillageroutpostoverhaul] Starting version check at https://api.modrinth.com/updates/QIt10I7z/forge_updates.json
+[14Aug2024 20:44:05.328] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernspillageroutpostoverhaul] Found status: AHEAD Current: 1-v2.2 Target: null
+[14Aug2024 20:44:05.328] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsdeserttempleoverhaul] Starting version check at https://api.modrinth.com/updates/7JTDDmRT/forge_updates.json
+[14Aug2024 20:44:05.663] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/afk display v1.1.8 (MC 1.21-1.21.1).zip, loading it automatically
+[14Aug2024 20:44:05.663] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/armored elytra v2.0.1 (MC 1.21-1.21.1).zip, loading it automatically
+[14Aug2024 20:44:05.664] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/chunk loaders v1.0.9 (MC 1.21-1.21.1).zip, loading it automatically
+[14Aug2024 20:44:05.664] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/confetti creepers v2.2.9 (MC 1.21-1.21.1).zip, loading it automatically
+[14Aug2024 20:44:05.664] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/custom nether portals v2.3.11 (MC 1.21-1.21.1).zip, loading it automatically
+[14Aug2024 20:44:05.664] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/graves v3.0.5 (MC 1.21-1.21.1).zip, loading it automatically
+[14Aug2024 20:44:05.664] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/name colors v1.0.6 (MC 1.21-1.21.1).zip, loading it automatically
+[14Aug2024 20:44:05.664] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/player head drops v1.1.8 (MC 1.21-1.21.1).zip, loading it automatically
+[14Aug2024 20:44:05.664] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/wandering trader announcements v1.0.1 (MC 1.21-1.21.1).zip, loading it automatically
+[14Aug2024 20:44:05.664] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/xp bottling v1.1.9 (MC 1.21-1.21.1).zip, loading it automatically
+[14Aug2024 20:44:05.752] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsdeserttempleoverhaul] Found status: AHEAD Current: 1-v1.1 Target: null
+[14Aug2024 20:44:05.752] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernswoodlandmansionoverhaul] Starting version check at https://api.modrinth.com/updates/3GfxWFCy/forge_updates.json
+[14Aug2024 20:44:06.062] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernswoodlandmansionoverhaul] Found status: AHEAD Current: 1-v1.1 Target: null
+[14Aug2024 20:44:06.062] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_warp_portals] Starting version check at https://api.modrinth.com/updates/Ub1JbeSt/forge_updates.json
+[14Aug2024 20:44:06.418] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_warp_portals] Found status: OUTDATED Current: 1.4.0 Target: 1.4.0+mod
+[14Aug2024 20:44:06.419] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsjungletempleoverhaul] Starting version check at https://api.modrinth.com/updates/oHjYCS0f/forge_updates.json
+[14Aug2024 20:44:06.752] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsjungletempleoverhaul] Found status: AHEAD Current: 1-v1.1 Target: null
+[14Aug2024 20:44:06.753] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsstrongholdrework] Starting version check at https://api.modrinth.com/updates/rYocd2LE/forge_updates.json
+[14Aug2024 20:44:07.156] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsstrongholdrework] Found status: AHEAD Current: 1-v2.1 Target: null
+[14Aug2024 20:44:07.156] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsendcastlestandalone] Starting version check at https://api.modrinth.com/updates/WIs8E6hv/forge_updates.json
+[14Aug2024 20:44:07.402] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1315 recipes
+[14Aug2024 20:44:07.454] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsendcastlestandalone] Found status: AHEAD Current: 1-v1 Target: null
+[14Aug2024 20:44:07.454] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsoceanmonumentoverhaul] Starting version check at https://api.modrinth.com/updates/z6GJ3ycD/forge_updates.json
+[14Aug2024 20:44:07.632] [main/ERROR] [net.minecraft.advancements.AdvancementTree/]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[14Aug2024 20:44:07.632] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1458 advancements
+[14Aug2024 20:44:07.652] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
+[14Aug2024 20:44:07.789] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsoceanmonumentoverhaul] Found status: AHEAD Current: 1-v1.1 Target: null
+[14Aug2024 20:44:07.790] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morevanillashields] Starting version check at https://raw.githubusercontent.com/Rajhab/MoreVanillaShields-UpdateChecker/main/update.json
+[14Aug2024 20:44:08.093] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morevanillashields] Found status: OUTDATED Current: 1.0.0-1.21 Target: 1.0.1-1.21
+[14Aug2024 20:44:08.093] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14Aug2024 20:44:08.314] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21
+[14Aug2024 20:44:08.314] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[14Aug2024 20:44:08.314] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[14Aug2024 20:44:08.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14Aug2024 20:44:08.448] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[14Aug2024 20:44:08.506] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[14Aug2024 20:44:08.570] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14Aug2024 20:44:08.570] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[14Aug2024 20:44:08.571] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14Aug2024 20:44:08.571] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[14Aug2024 20:44:08.637] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[14Aug2024 20:44:08.734] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 51.0.25 Target: 51.0.33
+[14Aug2024 20:44:08.735] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsswamphutoverhaul] Starting version check at https://api.modrinth.com/updates/nWSeFpQt/forge_updates.json
+[14Aug2024 20:44:09.495] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsswamphutoverhaul] Found status: AHEAD Current: 1-v2 Target: null
+[14Aug2024 20:44:09.496] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsancientcityoverhaul] Starting version check at https://api.modrinth.com/updates/DNuNq5bb/forge_updates.json
+[14Aug2024 20:44:09.817] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsancientcityoverhaul] Found status: AHEAD Current: 1-v2 Target: null
+[14Aug2024 20:44:15.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14Aug2024 20:44:16.368] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Aug2024 20:44:16.441] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[14Aug2024 20:44:16.521] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 581 ms
+[14Aug2024 20:44:16.522] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.931s)! For help, type "help"
+[14Aug2024 20:44:16.539] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[14Aug2024 20:44:16.540] [Server thread/INFO] [com.rajhab.morevanillashields_mod.morevanillashields/]: morevanillashields: This mod is now running on a server. Please report any error or bugs.
+[14Aug2024 20:44:51.733] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: whitehairguy[/127.0.0.1:52810] logged in with entity id 6 at (4213.735837831005, 72.0, -8392.569812625672)
+[14Aug2024 20:44:51.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy joined the game
+[14Aug2024 20:52:19.856] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy lost connection: Disconnected
+[14Aug2024 20:52:19.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy left the game
+[14Aug2024 20:52:27.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[14Aug2024 20:52:27.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[14Aug2024 20:52:27.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14Aug2024 20:52:27.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14Aug2024 20:52:27.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14Aug2024 20:52:27.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14Aug2024 20:52:27.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14Aug2024 20:52:27.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14Aug2024 20:52:27.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14Aug2024 20:52:27.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
