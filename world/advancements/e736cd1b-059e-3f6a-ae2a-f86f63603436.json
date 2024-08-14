@@ -259,6 +259,7 @@
       "minecraft:spider": "2024-07-19 05:25:49 +0530",
       "minecraft:piglin_brute": "2024-07-20 01:30:46 +0530",
       "minecraft:creeper": "2024-07-19 04:53:05 +0530",
+      "minecraft:wither": "2024-08-15 01:16:27 +0530",
       "minecraft:evoker": "2024-07-23 10:27:35 +0530",
       "minecraft:phantom": "2024-07-20 07:06:34 +0530",
       "minecraft:zombified_piglin": "2024-07-19 20:07:18 +0530",
@@ -4951,6 +4952,24 @@
   "minecraft:recipes/building_blocks/snow_block": {
     "criteria": {
       "has_snowball": "2024-08-14 23:36:40 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2024-08-15 01:15:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2024-08-15 01:20:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:end/respawn_dragon": {
+    "criteria": {
+      "summoned_dragon": "2024-08-15 01:28:53 +0530"
     },
     "done": true
   },
