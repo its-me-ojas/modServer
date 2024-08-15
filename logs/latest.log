@@ -1,28 +1,318 @@
-[16Aug2024 02:51:41.967] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server]
-[16Aug2024 02:51:41.969] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.3+7-LTS-152
-[16Aug2024 02:51:41.970] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.3 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[16Aug2024 02:51:42.183] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
-[16Aug2024 02:51:42.466] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
-[16Aug2024 02:51:42.837] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[16Aug2024 02:51:44.084] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[16Aug2024 02:51:44.084] [main/ERROR] [mixin/]: Mixin config weaponmaster_ydm.mixins.json does not specify "minVersion" or "requiredFeatures" property
-[16Aug2024 02:51:44.101] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments []
-[16Aug2024 02:51:44.899] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
-[16Aug2024 02:51:45.304] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
-[16Aug2024 02:51:50.868] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.74.
-[16Aug2024 02:51:50.962] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.25, for MC 1.21 with MCP 20240613.102039
-[16Aug2024 02:51:50.963] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.25 Initialized
-[16Aug2024 02:51:50.999] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[16Aug2024 02:51:51.790] [modloading-worker-0/INFO] [com.rajhab.morevanillashields_mod.morevanillashields/]: morevanillashields: This mod now runs with a config file. Feel free to use it!
-[16Aug2024 02:51:51.853] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[16Aug2024 02:51:51.854] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
-[16Aug2024 02:51:51.859] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[16Aug2024 02:51:51.859] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
-[16Aug2024 02:51:52.216] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
-[16Aug2024 02:51:53.461] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16Aug2024 02:51:53.612] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: AHEAD Current: 1-v4.3 Target: null
-[16Aug2024 02:51:53.613] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
-[16Aug2024 02:51:53.617] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[16Aug2024 04:43:34.646] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server]
+[16Aug2024 04:43:34.651] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.3+7-LTS-152
+[16Aug2024 04:43:34.653] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.3 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[16Aug2024 04:43:34.870] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[16Aug2024 04:43:35.223] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[16Aug2024 04:43:35.759] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[16Aug2024 04:43:37.140] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[16Aug2024 04:43:37.141] [main/ERROR] [mixin/]: Mixin config weaponmaster_ydm.mixins.json does not specify "minVersion" or "requiredFeatures" property
+[16Aug2024 04:43:37.147] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments []
+[16Aug2024 04:43:37.917] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
+[16Aug2024 04:43:38.402] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/C:/Users/raksh/Documents/GitHub/modServer/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
+[16Aug2024 04:43:44.205] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.74.
+[16Aug2024 04:43:44.306] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.25, for MC 1.21 with MCP 20240613.102039
+[16Aug2024 04:43:44.307] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.25 Initialized
+[16Aug2024 04:43:44.344] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[16Aug2024 04:43:45.022] [modloading-worker-0/INFO] [com.rajhab.morevanillashields_mod.morevanillashields/]: morevanillashields: This mod now runs with a config file. Feel free to use it!
+[16Aug2024 04:43:45.077] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[16Aug2024 04:43:45.077] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[16Aug2024 04:43:45.079] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[16Aug2024 04:43:45.080] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[16Aug2024 04:43:45.457] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[16Aug2024 04:43:46.464] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16Aug2024 04:43:46.627] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+travelersbackpack (version 10.0.1 -> MISSING)
+Things may not work well.
+[16Aug2024 04:43:46.692] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
+	travelersbackpack:bat: 1090
+	travelersbackpack:bee: 1091
+	travelersbackpack:black_sleeping_bag: 1118
+	travelersbackpack:blaze: 1084
+	travelersbackpack:blue_sleeping_bag: 1114
+	travelersbackpack:bookshelf: 1070
+	travelersbackpack:brown_sleeping_bag: 1115
+	travelersbackpack:cactus: 1077
+	travelersbackpack:cake: 1076
+	travelersbackpack:chicken: 1099
+	travelersbackpack:coal: 1068
+	travelersbackpack:cow: 1096
+	travelersbackpack:creeper: 1081
+	travelersbackpack:cyan_sleeping_bag: 1112
+	travelersbackpack:diamond: 1062
+	travelersbackpack:dragon: 1082
+	travelersbackpack:emerald: 1064
+	travelersbackpack:end: 1071
+	travelersbackpack:enderman: 1083
+	travelersbackpack:fox: 1093
+	travelersbackpack:ghast: 1085
+	travelersbackpack:gold: 1063
+	travelersbackpack:gray_sleeping_bag: 1110
+	travelersbackpack:green_sleeping_bag: 1116
+	travelersbackpack:hay: 1078
+	travelersbackpack:horse: 1095
+	travelersbackpack:iron: 1065
+	travelersbackpack:iron_golem: 1102
+	travelersbackpack:lapis: 1066
+	travelersbackpack:light_blue_sleeping_bag: 1106
+	travelersbackpack:light_gray_sleeping_bag: 1111
+	travelersbackpack:lime_sleeping_bag: 1108
+	travelersbackpack:magenta_sleeping_bag: 1105
+	travelersbackpack:magma_cube: 1086
+	travelersbackpack:melon: 1079
+	travelersbackpack:nether: 1072
+	travelersbackpack:netherite: 1061
+	travelersbackpack:ocelot: 1094
+	travelersbackpack:orange_sleeping_bag: 1104
+	travelersbackpack:pig: 1097
+	travelersbackpack:pink_sleeping_bag: 1109
+	travelersbackpack:pumpkin: 1080
+	travelersbackpack:purple_sleeping_bag: 1113
+	travelersbackpack:quartz: 1069
+	travelersbackpack:red_sleeping_bag: 1117
+	travelersbackpack:redstone: 1067
+	travelersbackpack:sandstone: 1073
+	travelersbackpack:sheep: 1098
+	travelersbackpack:skeleton: 1087
+	travelersbackpack:snow: 1074
+	travelersbackpack:spider: 1088
+	travelersbackpack:sponge: 1075
+	travelersbackpack:squid: 1100
+	travelersbackpack:standard: 1060
+	travelersbackpack:villager: 1101
+	travelersbackpack:white_sleeping_bag: 1103
+	travelersbackpack:wither: 1089
+	travelersbackpack:wolf: 1092
+	travelersbackpack:yellow_sleeping_bag: 1107
+
+[16Aug2024 04:43:46.695] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:fluid
+	minecraft:flowing_milk: 6
+	minecraft:milk: 5
+
+[16Aug2024 04:43:46.696] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	travelersbackpack:backpack_tank: 1413
+	travelersbackpack:bat: 1384
+	travelersbackpack:bee: 1385
+	travelersbackpack:black_sleeping_bag: 1412
+	travelersbackpack:blank_upgrade: 1416
+	travelersbackpack:blaze: 1378
+	travelersbackpack:blue_sleeping_bag: 1408
+	travelersbackpack:bookshelf: 1364
+	travelersbackpack:brown_sleeping_bag: 1409
+	travelersbackpack:cactus: 1371
+	travelersbackpack:cake: 1370
+	travelersbackpack:chicken: 1393
+	travelersbackpack:coal: 1362
+	travelersbackpack:cow: 1390
+	travelersbackpack:crafting_upgrade: 1421
+	travelersbackpack:creeper: 1375
+	travelersbackpack:cyan_sleeping_bag: 1406
+	travelersbackpack:diamond: 1356
+	travelersbackpack:diamond_tier_upgrade: 1419
+	travelersbackpack:dragon: 1376
+	travelersbackpack:emerald: 1358
+	travelersbackpack:end: 1365
+	travelersbackpack:enderman: 1377
+	travelersbackpack:fox: 1387
+	travelersbackpack:ghast: 1379
+	travelersbackpack:gold: 1357
+	travelersbackpack:gold_tier_upgrade: 1418
+	travelersbackpack:gray_sleeping_bag: 1404
+	travelersbackpack:green_sleeping_bag: 1410
+	travelersbackpack:hay: 1372
+	travelersbackpack:horse: 1389
+	travelersbackpack:hose: 1414
+	travelersbackpack:hose_nozzle: 1415
+	travelersbackpack:iron: 1359
+	travelersbackpack:iron_golem: 1396
+	travelersbackpack:iron_tier_upgrade: 1417
+	travelersbackpack:lapis: 1360
+	travelersbackpack:light_blue_sleeping_bag: 1400
+	travelersbackpack:light_gray_sleeping_bag: 1405
+	travelersbackpack:lime_sleeping_bag: 1402
+	travelersbackpack:magenta_sleeping_bag: 1399
+	travelersbackpack:magma_cube: 1380
+	travelersbackpack:melon: 1373
+	travelersbackpack:nether: 1366
+	travelersbackpack:netherite: 1355
+	travelersbackpack:netherite_tier_upgrade: 1420
+	travelersbackpack:ocelot: 1388
+	travelersbackpack:orange_sleeping_bag: 1398
+	travelersbackpack:pig: 1391
+	travelersbackpack:pink_sleeping_bag: 1403
+	travelersbackpack:pumpkin: 1374
+	travelersbackpack:purple_sleeping_bag: 1407
+	travelersbackpack:quartz: 1363
+	travelersbackpack:red_sleeping_bag: 1411
+	travelersbackpack:redstone: 1361
+	travelersbackpack:sandstone: 1367
+	travelersbackpack:sheep: 1392
+	travelersbackpack:skeleton: 1381
+	travelersbackpack:snow: 1368
+	travelersbackpack:spider: 1382
+	travelersbackpack:sponge: 1369
+	travelersbackpack:squid: 1394
+	travelersbackpack:standard: 1354
+	travelersbackpack:villager: 1395
+	travelersbackpack:white_sleeping_bag: 1397
+	travelersbackpack:wither: 1383
+	travelersbackpack:wolf: 1386
+	travelersbackpack:yellow_sleeping_bag: 1401
+
+[16Aug2024 04:43:46.698] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:sound_event
+	minecraft:item.bucket.empty_milk: 1611
+	minecraft:item.bucket.fill_milk: 1612
+
+[16Aug2024 04:43:46.706] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 131 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[16Aug2024 04:43:46.706] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:sound_event:
+    minecraft:item.bucket.empty_milk
+    minecraft:item.bucket.fill_milk
+
+Missing minecraft:item:
+    travelersbackpack:backpack_tank
+    travelersbackpack:bat
+    travelersbackpack:bee
+    travelersbackpack:black_sleeping_bag
+    travelersbackpack:blank_upgrade
+    travelersbackpack:blaze
+    travelersbackpack:blue_sleeping_bag
+    travelersbackpack:bookshelf
+    travelersbackpack:brown_sleeping_bag
+    travelersbackpack:cactus
+    travelersbackpack:cake
+    travelersbackpack:chicken
+    travelersbackpack:coal
+    travelersbackpack:cow
+    travelersbackpack:crafting_upgrade
+    travelersbackpack:creeper
+    travelersbackpack:cyan_sleeping_bag
+    travelersbackpack:diamond
+    travelersbackpack:diamond_tier_upgrade
+    travelersbackpack:dragon
+    travelersbackpack:emerald
+    travelersbackpack:end
+    travelersbackpack:enderman
+    travelersbackpack:fox
+    travelersbackpack:ghast
+    travelersbackpack:gold
+    travelersbackpack:gold_tier_upgrade
+    travelersbackpack:gray_sleeping_bag
+    travelersbackpack:green_sleeping_bag
+    travelersbackpack:hay
+    travelersbackpack:horse
+    travelersbackpack:hose
+    travelersbackpack:hose_nozzle
+    travelersbackpack:iron
+    travelersbackpack:iron_golem
+    travelersbackpack:iron_tier_upgrade
+    travelersbackpack:lapis
+    travelersbackpack:light_blue_sleeping_bag
+    travelersbackpack:light_gray_sleeping_bag
+    travelersbackpack:lime_sleeping_bag
+    travelersbackpack:magenta_sleeping_bag
+    travelersbackpack:magma_cube
+    travelersbackpack:melon
+    travelersbackpack:nether
+    travelersbackpack:netherite
+    travelersbackpack:netherite_tier_upgrade
+    travelersbackpack:ocelot
+    travelersbackpack:orange_sleeping_bag
+    travelersbackpack:pig
+    travelersbackpack:pink_sleeping_bag
+    travelersbackpack:pumpkin
+    travelersbackpack:purple_sleeping_bag
+    travelersbackpack:quartz
+    travelersbackpack:red_sleeping_bag
+    travelersbackpack:redstone
+    travelersbackpack:sandstone
+    travelersbackpack:sheep
+    travelersbackpack:skeleton
+    travelersbackpack:snow
+    travelersbackpack:spider
+    travelersbackpack:sponge
+    travelersbackpack:squid
+    travelersbackpack:standard
+    travelersbackpack:villager
+    travelersbackpack:white_sleeping_bag
+    travelersbackpack:wither
+    travelersbackpack:wolf
+    travelersbackpack:yellow_sleeping_bag
+
+Missing minecraft:block:
+    travelersbackpack:bat
+    travelersbackpack:bee
+    travelersbackpack:black_sleeping_bag
+    travelersbackpack:blaze
+    travelersbackpack:blue_sleeping_bag
+    travelersbackpack:bookshelf
+    travelersbackpack:brown_sleeping_bag
+    travelersbackpack:cactus
+    travelersbackpack:cake
+    travelersbackpack:chicken
+    travelersbackpack:coal
+    travelersbackpack:cow
+    travelersbackpack:creeper
+    travelersbackpack:cyan_sleeping_bag
+    travelersbackpack:diamond
+    travelersbackpack:dragon
+    travelersbackpack:emerald
+    travelersbackpack:end
+    travelersbackpack:enderman
+    travelersbackpack:fox
+    travelersbackpack:ghast
+    travelersbackpack:gold
+    travelersbackpack:gray_sleeping_bag
+    travelersbackpack:green_sleeping_bag
+    travelersbackpack:hay
+    travelersbackpack:horse
+    travelersbackpack:iron
+    travelersbackpack:iron_golem
+    travelersbackpack:lapis
+    travelersbackpack:light_blue_sleeping_bag
+    travelersbackpack:light_gray_sleeping_bag
+    travelersbackpack:lime_sleeping_bag
+    travelersbackpack:magenta_sleeping_bag
+    travelersbackpack:magma_cube
+    travelersbackpack:melon
+    travelersbackpack:nether
+    travelersbackpack:netherite
+    travelersbackpack:ocelot
+    travelersbackpack:orange_sleeping_bag
+    travelersbackpack:pig
+    travelersbackpack:pink_sleeping_bag
+    travelersbackpack:pumpkin
+    travelersbackpack:purple_sleeping_bag
+    travelersbackpack:quartz
+    travelersbackpack:red_sleeping_bag
+    travelersbackpack:redstone
+    travelersbackpack:sandstone
+    travelersbackpack:sheep
+    travelersbackpack:skeleton
+    travelersbackpack:snow
+    travelersbackpack:spider
+    travelersbackpack:sponge
+    travelersbackpack:squid
+    travelersbackpack:standard
+    travelersbackpack:villager
+    travelersbackpack:white_sleeping_bag
+    travelersbackpack:wither
+    travelersbackpack:wolf
+    travelersbackpack:yellow_sleeping_bag
+
+Missing minecraft:fluid:
+    minecraft:flowing_milk
+    minecraft:milk
+
+
+[16Aug2024 04:43:46.708] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[16Aug2024 04:43:46.848] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: AHEAD Current: 1-v4.3 Target: null
+[16Aug2024 04:43:46.849] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[16Aug2024 04:43:46.854] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.net.ConnectException: null
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:951) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
@@ -89,28 +379,31 @@ Caused by: java.nio.channels.UnresolvedAddressException
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1047) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:930) ~[java.net.http:?]
 	... 5 more
-[16Aug2024 02:51:53.622] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsnetherfortressoverhaul] Starting version check at https://api.modrinth.com/updates/8Dbnvm77/forge_updates.json
-[16Aug2024 02:51:53.881] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsnetherfortressoverhaul] Found status: AHEAD Current: 1-v2.1 Target: null
-[16Aug2024 02:51:53.881] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernspillageroutpostoverhaul] Starting version check at https://api.modrinth.com/updates/QIt10I7z/forge_updates.json
-[16Aug2024 02:51:54.177] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernspillageroutpostoverhaul] Found status: AHEAD Current: 1-v2.2 Target: null
-[16Aug2024 02:51:54.177] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsdeserttempleoverhaul] Starting version check at https://api.modrinth.com/updates/7JTDDmRT/forge_updates.json
-[16Aug2024 02:51:54.290] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack file/HardDeluxeV1_6_3.zip
-[16Aug2024 02:51:54.494] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsdeserttempleoverhaul] Found status: AHEAD Current: 1-v1.1 Target: null
-[16Aug2024 02:51:54.494] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernswoodlandmansionoverhaul] Starting version check at https://api.modrinth.com/updates/3GfxWFCy/forge_updates.json
-[16Aug2024 02:51:54.800] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernswoodlandmansionoverhaul] Found status: AHEAD Current: 1-v1.1 Target: null
-[16Aug2024 02:51:54.800] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_warp_portals] Starting version check at https://api.modrinth.com/updates/Ub1JbeSt/forge_updates.json
-[16Aug2024 02:51:55.077] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_warp_portals] Found status: OUTDATED Current: 1.4.0 Target: 1.4.0+mod
-[16Aug2024 02:51:55.077] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsjungletempleoverhaul] Starting version check at https://api.modrinth.com/updates/oHjYCS0f/forge_updates.json
-[16Aug2024 02:51:55.336] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsjungletempleoverhaul] Found status: AHEAD Current: 1-v1.1 Target: null
-[16Aug2024 02:51:55.337] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsstrongholdrework] Starting version check at https://api.modrinth.com/updates/rYocd2LE/forge_updates.json
-[16Aug2024 02:51:55.619] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsstrongholdrework] Found status: AHEAD Current: 1-v2.1 Target: null
-[16Aug2024 02:51:55.619] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsendcastlestandalone] Starting version check at https://api.modrinth.com/updates/WIs8E6hv/forge_updates.json
-[16Aug2024 02:51:55.886] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsendcastlestandalone] Found status: AHEAD Current: 1-v1 Target: null
-[16Aug2024 02:51:55.886] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsoceanmonumentoverhaul] Starting version check at https://api.modrinth.com/updates/z6GJ3ycD/forge_updates.json
-[16Aug2024 02:51:56.003] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1315 recipes
-[16Aug2024 02:51:56.204] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsoceanmonumentoverhaul] Found status: AHEAD Current: 1-v1.1 Target: null
-[16Aug2024 02:51:56.204] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morevanillashields] Starting version check at https://raw.githubusercontent.com/Rajhab/MoreVanillaShields-UpdateChecker/main/update.json
-[16Aug2024 02:51:56.206] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[16Aug2024 04:43:46.859] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsnetherfortressoverhaul] Starting version check at https://api.modrinth.com/updates/8Dbnvm77/forge_updates.json
+[16Aug2024 04:43:47.145] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsnetherfortressoverhaul] Found status: AHEAD Current: 1-v2.1 Target: null
+[16Aug2024 04:43:47.145] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernspillageroutpostoverhaul] Starting version check at https://api.modrinth.com/updates/QIt10I7z/forge_updates.json
+[16Aug2024 04:43:47.154] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:travelersbackpack
+[16Aug2024 04:43:47.406] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernspillageroutpostoverhaul] Found status: AHEAD Current: 1-v2.2 Target: null
+[16Aug2024 04:43:47.406] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsdeserttempleoverhaul] Starting version check at https://api.modrinth.com/updates/7JTDDmRT/forge_updates.json
+[16Aug2024 04:43:47.827] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsdeserttempleoverhaul] Found status: AHEAD Current: 1-v1.1 Target: null
+[16Aug2024 04:43:47.828] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernswoodlandmansionoverhaul] Starting version check at https://api.modrinth.com/updates/3GfxWFCy/forge_updates.json
+[16Aug2024 04:43:48.144] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernswoodlandmansionoverhaul] Found status: AHEAD Current: 1-v1.1 Target: null
+[16Aug2024 04:43:48.144] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_warp_portals] Starting version check at https://api.modrinth.com/updates/Ub1JbeSt/forge_updates.json
+[16Aug2024 04:43:48.450] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_warp_portals] Found status: OUTDATED Current: 1.4.0 Target: 1.4.0+mod
+[16Aug2024 04:43:48.450] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsjungletempleoverhaul] Starting version check at https://api.modrinth.com/updates/oHjYCS0f/forge_updates.json
+[16Aug2024 04:43:48.740] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsjungletempleoverhaul] Found status: AHEAD Current: 1-v1.1 Target: null
+[16Aug2024 04:43:48.740] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsstrongholdrework] Starting version check at https://api.modrinth.com/updates/rYocd2LE/forge_updates.json
+[16Aug2024 04:43:48.817] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1315 recipes
+[16Aug2024 04:43:49.056] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsstrongholdrework] Found status: AHEAD Current: 1-v2.1 Target: null
+[16Aug2024 04:43:49.057] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsendcastlestandalone] Starting version check at https://api.modrinth.com/updates/WIs8E6hv/forge_updates.json
+[16Aug2024 04:43:49.256] [main/ERROR] [net.minecraft.advancements.AdvancementTree/]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[16Aug2024 04:43:49.256] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1456 advancements
+[16Aug2024 04:43:49.269] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
+[16Aug2024 04:43:49.315] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsendcastlestandalone] Found status: AHEAD Current: 1-v1 Target: null
+[16Aug2024 04:43:49.315] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsoceanmonumentoverhaul] Starting version check at https://api.modrinth.com/updates/z6GJ3ycD/forge_updates.json
+[16Aug2024 04:43:49.571] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsoceanmonumentoverhaul] Found status: AHEAD Current: 1-v1.1 Target: null
+[16Aug2024 04:43:49.571] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morevanillashields] Starting version check at https://raw.githubusercontent.com/Rajhab/MoreVanillaShields-UpdateChecker/main/update.json
+[16Aug2024 04:43:49.573] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.net.ConnectException: null
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:951) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
@@ -177,99 +470,42 @@ Caused by: java.nio.channels.UnresolvedAddressException
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1047) ~[java.net.http:?]
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:930) ~[java.net.http:?]
 	... 5 more
-[16Aug2024 02:51:56.209] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[16Aug2024 02:51:56.292] [main/ERROR] [net.minecraft.advancements.AdvancementTree/]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
-[16Aug2024 02:51:56.293] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1456 advancements
-[16Aug2024 02:51:56.315] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
-[16Aug2024 02:51:56.810] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 51.0.25 Target: 51.0.33
-[16Aug2024 02:51:56.810] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsswamphutoverhaul] Starting version check at https://api.modrinth.com/updates/nWSeFpQt/forge_updates.json
-[16Aug2024 02:51:57.079] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsswamphutoverhaul] Found status: AHEAD Current: 1-v2 Target: null
-[16Aug2024 02:51:57.079] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsancientcityoverhaul] Starting version check at https://api.modrinth.com/updates/DNuNq5bb/forge_updates.json
-[16Aug2024 02:51:57.297] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21
-[16Aug2024 02:51:57.297] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[16Aug2024 02:51:57.299] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[16Aug2024 02:51:57.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[16Aug2024 02:51:57.343] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsancientcityoverhaul] Found status: AHEAD Current: 1-v2 Target: null
-[16Aug2024 02:51:57.405] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[16Aug2024 02:51:57.544] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[16Aug2024 02:51:57.609] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16Aug2024 02:51:57.610] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[16Aug2024 02:51:57.611] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16Aug2024 02:51:57.611] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[16Aug2024 02:51:57.670] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[16Aug2024 02:51:58.285] [Netty Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/127.131.241.28:53368] Disconnecting VANILLA connection attempt: Server is still starting! Please wait before reconnecting.
-[16Aug2024 02:51:59.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[16Aug2024 02:52:00.253] [Netty Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/127.131.241.28:53372] Disconnecting VANILLA connection attempt: Server is still starting! Please wait before reconnecting.
-[16Aug2024 02:52:00.681] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Aug2024 02:52:00.683] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Aug2024 02:52:00.684] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Aug2024 02:52:00.826] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1240 ms
-[16Aug2024 02:52:00.828] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.198s)! For help, type "help"
-[16Aug2024 02:52:00.861] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[16Aug2024 02:52:00.863] [Server thread/INFO] [com.rajhab.morevanillashields_mod.morevanillashields/]: morevanillashields: This mod is now running on a server. Please report any error or bugs.
-[16Aug2024 02:52:02.888] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'tatevancements:hd' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[16Aug2024 02:52:02.889] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'tatevancements:root' in progress file .\world\advancements\100e5775-f9ac-3544-a56b-55cdd79363c2.json - it doesn't exist anymore?
-[16Aug2024 02:52:02.937] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rad1108[/127.0.0.1:53379] logged in with entity id 27 at (-1.300000011920929, 39.0, 201.30000001192093)
-[16Aug2024 02:52:02.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rad1108 joined the game
-[16Aug2024 02:52:03.279] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'tatevancements:hd' in progress file .\world\advancements\e736cd1b-059e-3f6a-ae2a-f86f63603436.json - it doesn't exist anymore?
-[16Aug2024 02:52:03.280] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'tatevancements:root' in progress file .\world\advancements\e736cd1b-059e-3f6a-ae2a-f86f63603436.json - it doesn't exist anymore?
-[16Aug2024 02:52:03.280] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'tatevancements:kill_all_mobs' in progress file .\world\advancements\e736cd1b-059e-3f6a-ae2a-f86f63603436.json - it doesn't exist anymore?
-[16Aug2024 02:52:03.305] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: whitehairguy[/127.131.241.28:53378] logged in with entity id 28 at (-1.0084717156108132, 41.0, 207.10089024978296)
-[16Aug2024 02:52:03.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy joined the game
-[16Aug2024 03:03:24.951] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rad1108 lost connection: Disconnected
-[16Aug2024 03:03:24.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rad1108 left the game
-[16Aug2024 03:03:41.610] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy lost connection: Disconnected
-[16Aug2024 03:03:41.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy left the game
-[16Aug2024 03:07:14.528] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: whitehairguy[/127.131.241.28:53758] logged in with entity id 6232 at (-82.23011012216504, 95.0, 1951.1430982841857)
-[16Aug2024 03:07:14.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy joined the game
-[16Aug2024 03:07:27.239] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rad1108[/127.0.0.1:53764] logged in with entity id 6808 at (-73.00314314575226, 97.0, 1961.3821230476833)
-[16Aug2024 03:07:27.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rad1108 joined the game
-[16Aug2024 03:08:25.603] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rad1108 lost connection: Disconnected
-[16Aug2024 03:08:25.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rad1108 left the game
-[16Aug2024 03:09:07.251] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy lost connection: Disconnected
-[16Aug2024 03:09:07.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy left the game
-[16Aug2024 03:09:12.746] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rad1108[/127.0.0.1:53804] logged in with entity id 7806 at (-85.38351618057473, 98.0, 1954.6801442649505)
-[16Aug2024 03:09:12.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rad1108 joined the game
-[16Aug2024 03:09:41.518] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: whitehairguy[/127.131.241.28:53815] logged in with entity id 8899 at (4233.3202035257045, 72.0, -8396.015692091752)
-[16Aug2024 03:09:41.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy joined the game
-[16Aug2024 03:11:38.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rad1108 has made the advancement [Crafting a New Look]
-[16Aug2024 03:11:50.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy has made the advancement [Crafting a New Look]
-[16Aug2024 03:16:41.577] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rad1108 moved too quickly! -8.754648896297454,5.125,-1.3348864250151564
-[16Aug2024 03:16:41.584] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6010ms or 120 ticks behind
-[16Aug2024 03:17:45.920] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy lost connection: Disconnected
-[16Aug2024 03:17:45.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy left the game
-[16Aug2024 03:18:53.296] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: whitehairguy[/127.131.241.28:53963] logged in with entity id 11916 at (2029.4299775501686, 91.0, -17639.544158934208)
-[16Aug2024 03:18:53.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy joined the game
-[16Aug2024 03:20:24.188] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy moved too quickly! 14.456684756738014,-0.2336320060424839,-3.8392118599294918
-[16Aug2024 03:20:31.691] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy moved too quickly! 1.542212925142394,0.0,12.76392218401088
-[16Aug2024 03:22:18.816] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy moved wrongly!
-[16Aug2024 03:22:18.909] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy moved wrongly!
-[16Aug2024 03:22:19.055] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy moved wrongly!
-[16Aug2024 03:22:19.178] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy moved wrongly!
-[16Aug2024 03:22:19.312] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy moved wrongly!
-[16Aug2024 03:22:19.409] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy moved wrongly!
-[16Aug2024 03:22:25.446] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy moved too quickly! -10.29969225322293,0.0,1.3516272897395538
-[16Aug2024 03:22:32.699] [Worker-Main-13/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=203, y=48, z=159}
-[16Aug2024 03:22:38.801] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: whitehairguy moved too quickly! 3.8879520824796145,-0.7684762024129839,13.056927167330286
-[16Aug2024 03:23:42.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <whitehairguy> xaero-waypoint:Cave Desert Village:CD:1702:63:-17053:4:false:0:Internal-overworld-waypoints
-[16Aug2024 03:29:33.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy has made the advancement [Smells Interesting]
-[16Aug2024 03:30:27.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: whitehairguy has made the advancement [Respecting the Remnants]
-[16Aug2024 03:32:54.996] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1923, y=51, z=-17408} BlockPos{x=1925, y=48, z=-17408}
-[16Aug2024 03:50:46.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [whitehairguy: Running function graves:config]
-[16Aug2024 03:53:43.828] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rad1108 moved too quickly! -2.734341173648886,14.594528511410147,-10.956860355267054
-[16Aug2024 04:13:10.143] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rad1108 lost connection: Disconnected
-[16Aug2024 04:13:10.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rad1108 left the game
-[16Aug2024 04:14:14.134] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rad1108[/127.0.0.1:54695] logged in with entity id 46723 at (-192.95924491779613, 237.0, 1678.2114819736594)
-[16Aug2024 04:14:14.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rad1108 joined the game
-[16Aug2024 04:15:51.699] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rad1108 lost connection: Disconnected
-[16Aug2024 04:15:51.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rad1108 left the game
-[16Aug2024 04:21:11.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[16Aug2024 04:21:11.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[16Aug2024 04:21:11.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[16Aug2024 04:21:11.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16Aug2024 04:21:12.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[16Aug2024 04:21:12.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[16Aug2024 04:21:12.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16Aug2024 04:21:12.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16Aug2024 04:21:12.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16Aug2024 04:21:12.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16Aug2024 04:43:49.577] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[16Aug2024 04:43:50.158] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21
+[16Aug2024 04:43:50.159] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[16Aug2024 04:43:50.159] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[16Aug2024 04:43:50.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[16Aug2024 04:43:50.208] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 51.0.25 Target: 51.0.33
+[16Aug2024 04:43:50.209] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsswamphutoverhaul] Starting version check at https://api.modrinth.com/updates/nWSeFpQt/forge_updates.json
+[16Aug2024 04:43:50.256] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[16Aug2024 04:43:50.388] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[16Aug2024 04:43:50.448] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16Aug2024 04:43:50.449] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[16Aug2024 04:43:50.450] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16Aug2024 04:43:50.450] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[16Aug2024 04:43:50.515] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[16Aug2024 04:43:50.525] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsswamphutoverhaul] Found status: AHEAD Current: 1-v2 Target: null
+[16Aug2024 04:43:50.526] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsancientcityoverhaul] Starting version check at https://api.modrinth.com/updates/DNuNq5bb/forge_updates.json
+[16Aug2024 04:43:50.790] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtavernsancientcityoverhaul] Found status: AHEAD Current: 1-v2 Target: null
+[16Aug2024 04:43:52.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[16Aug2024 04:43:53.120] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Aug2024 04:43:53.121] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Aug2024 04:43:53.282] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1065 ms
+[16Aug2024 04:43:53.283] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.811s)! For help, type "help"
+[16Aug2024 04:43:53.319] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[16Aug2024 04:43:53.321] [Server thread/INFO] [com.rajhab.morevanillashields_mod.morevanillashields/]: morevanillashields: This mod is now running on a server. Please report any error or bugs.
+[16Aug2024 04:44:10.868] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rad1108[/127.0.0.1:56046] logged in with entity id 28 at (-193.30000001192093, 234.0, 1676.699999988079)
+[16Aug2024 04:44:10.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rad1108 joined the game
+[16Aug2024 04:44:12.910] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2261ms or 45 ticks behind
+[16Aug2024 04:44:25.827] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rad1108 lost connection: Disconnected
+[16Aug2024 04:44:25.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rad1108 left the game
+[16Aug2024 04:44:46.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[16Aug2024 04:44:46.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[16Aug2024 04:44:46.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[16Aug2024 04:44:46.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16Aug2024 04:44:46.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16Aug2024 04:44:46.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16Aug2024 04:44:46.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16Aug2024 04:44:46.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16Aug2024 04:44:46.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16Aug2024 04:44:46.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
